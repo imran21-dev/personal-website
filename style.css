@@ -7,6 +7,8 @@
     --font-color2: #e58fff;
     --font-color3: #847dd3;
     --font-color4: #ded0eb;
+    --font-color5: #ded0eb89;
+
     --primary-font: Sora;
 
 }
@@ -21,6 +23,10 @@
 ::-webkit-scrollbar-track{
   background-color: transparent;
     width: 5px;
+}
+::selection{
+    background-color: var(--font-color2);
+    color: var(--background-color);
 }
 *{
     box-sizing: border-box;
@@ -50,10 +56,12 @@ body{
     width: 100%;
     
   
-    
+    background-image: url("assets/Untitled-1-02.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-blend-mode:saturation;
+    background-color: #0c0c0da5;
+    background-blend-mode:color-burn;
+    
 }
 .header-logo{
     width: 70px;
@@ -68,7 +76,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 10px;
+    padding: 20px 10px;
     gap: 8%;
     /* background: #0000000c;
     backdrop-filter: blur(5px); */
@@ -117,11 +125,155 @@ body{
     background: linear-gradient(to right bottom, var(--font-color), var(--primary-color2));
     border-radius: 50px;
     cursor: pointer;
+    border: 1px solid var(--font-color);
+
 }
 .hire-btn button:hover{
     padding: 12px 30px;
    
 }
 
+
+/* banner  */
+
+.banner{
+    
+    padding: 100px 18%;
+    display: flex;
+    gap: 30%;
+
+}
+.banner-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 35px;
+    
+    
+}
+.banner-left h3{
+    font-size: 25px;
+    font-weight: 400;
+   
+}
+.banner-left h1{
+    font-size: 45px;
+    font-weight: 600;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right bottom, var(--font-color2), var(--font-color),var(--font-color));
+}
+.banner-left h1 span{
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right bottom, var(--font-color2), var(--font-color));
+}
+.banner-left p{
+    font-size: 13px;
+    color: var(--font-color5);
+}
+.download-btn{
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--font-color2);
+    border: 1px solid var(--font-color2);
+    padding: 10px 20px;
+    border-radius: 50px;
+    display: flex;
+     align-items: center;
+     gap: 10px;
+     margin-top: 50px;
+     
+}
+.download-btn:hover{
+    border: 1px solid var(--font-color);
+    background: linear-gradient(to right bottom, var(--font-color), var(--primary-color2));
+    color: var(--background-color);
+  
+}
+.download-btn:hover i{
+    color: var(--background-color);
+}
+.download-btn i{
+    color: var(--font-color2);
+    font-weight: 400;
+}
+
+
+.circle-one{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 3px dashed var(--font-color5);
+    animation: solar1 10s linear infinite;
+}
+@keyframes solar {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.cl1{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: var(--background-color);
+    position: absolute;
+   top: 0;
+   left: 95px;
+   border: 1px solid var(--font-color5);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.cl2{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: var(--background-color);
+    position: absolute;
+   bottom: 0;
+   left: 95px;
+   border: 1px solid var(--font-color5);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.cl3{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: var(--background-color);
+    position: absolute;
+   bottom: 95px;
+   right: 0;
+   border: 1px solid var(--font-color5);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.cl2 img, .cl3 img{
+    width: 60%;
+}
+.cl1 img{
+    width: 80%;
+}
+.circle-two{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 3px dashed var(--font-color5);
+    animation: solar1 10s linear infinite;
+    border-radius: 50%;
+}
 
 
