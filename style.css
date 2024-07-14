@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+:root{
+    --background-color: #0c0c0d;
+    --primary-color:#9914c1;
+    --primary-color2:#5825c1;
+    --font-color: #f5f5ff;
+    --font-color2: #e58fff;
+    --font-color3: #847dd3;
+    --font-color4: #ded0eb;
+    --primary-font: Sora;
+
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(to right bottom, var(--font-color), var(--primary-color2));
+
+    border-radius: 50px;
+}
+::-webkit-scrollbar-track{
+  background-color: transparent;
+    width: 5px;
+}
+*{
+    box-sizing: border-box;
+    transition: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    font-family: var(--primary-font);
+    list-style-type: none;
+    color: var(--font-color);
+    transition: .3s ease-in-out;
+}
+
+html{
+    font-size: 60%;
+    overflow-x: hidden;
+}
+body{
+    background: var(--background-color);
+    color: var(--font-color);
+    height: 100vh;
+  
+}
+.header{
+    width: 100%;
+    
+  
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode:saturation;
+}
+.header-logo{
+    width: 70px;
+}
+.header-logo img{
+    width: 100%;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+    gap: 8%;
+    /* background: #0000000c;
+    backdrop-filter: blur(5px); */
+}
+.nav-items ul{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    
+}
+
+.nav-items li a{
+    font-size: 15px;
+    padding: 10px 15px;
+    display: flex;
+    color: var(--font-color);
+
+}
+.nav-items li a:hover{
+    color: var(--font-color2);
+    
+    border-bottom: 1px solid var(--font-color);
+    /* transform:translateY(-.7px); */
+    transition: .2s ease-in-out;
+    
+}
+.nav-items li a:focus{
+    border-bottom: 1px solid var(--font-color2);
+    color: var(--font-color2);
+    font-weight: 500;
+    transform:translateY(-.7px);
+
+}
+.hire-btn{
+    
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+.hire-btn button{
+    color: var(--background-color);
+    border: none;
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    background: linear-gradient(to right bottom, var(--font-color), var(--primary-color2));
+    border-radius: 50px;
+    cursor: pointer;
+}
+.hire-btn button:hover{
+    padding: 12px 30px;
+   
+}
+
+
+
