@@ -56,11 +56,11 @@ body{
     width: 100%;
     
   
-    background-image: url("assets/Untitled-1-02.png");
+    background-image: url("assets/bg-header-01.png"), linear-gradient(to bottom, #00000057,#00000060,#0c0c0d);
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #0c0c0da5;
-    background-blend-mode:color-burn;
+    
+    background-blend-mode:overlay;  
     
 }
 .header-logo{
@@ -208,26 +208,35 @@ body{
     justify-content: center;
     align-items: center;
     position: relative;
-    border: 3px dashed var(--font-color5);
-    animation: solar1 10s linear infinite;
+    border: 2px dashed var(--font-color5);
+    animation: solar1 60s linear infinite;
+    
 }
-@keyframes solar {
+@keyframes solar1 {
     0%{
         transform: rotate(0deg);
+        border-color: var(--font-color5)
+    }
+    50%{
+        border-color: var(--font-color2)
+
     }
     100%{
         transform: rotate(360deg);
+        border-color: var(--font-color5)
+
+
     }
 }
 .cl1{
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    background-color: var(--background-color);
+    background-color: var(--font-color5);
     position: absolute;
    top: 0;
    left: 95px;
-   border: 1px solid var(--font-color5);
+   border: 1px solid var(--font-color2);
    display: flex;
    align-items: center;
    justify-content: center;
@@ -236,11 +245,11 @@ body{
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    background-color: var(--background-color);
+   background-color: var(--font-color5);
     position: absolute;
    bottom: 0;
    left: 95px;
-   border: 1px solid var(--font-color5);
+   border: 1px solid var(--font-color2);
    display: flex;
    align-items: center;
    justify-content: center;
@@ -249,11 +258,11 @@ body{
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    background-color: var(--background-color);
+    background-color: var(--font-color5);
     position: absolute;
    bottom: 95px;
    right: 0;
-   border: 1px solid var(--font-color5);
+   border: 1px solid var(--font-color2);
    display: flex;
    align-items: center;
    justify-content: center;
@@ -271,9 +280,202 @@ body{
     justify-content: center;
     align-items: center;
     position: relative;
-    border: 3px dashed var(--font-color5);
-    animation: solar1 10s linear infinite;
+    border: 2px dashed var(--font-color5);
+    animation: solar2 40s linear infinite;
     border-radius: 50%;
+}
+@keyframes solar2 {
+    0%{
+        transform: rotate(0deg);
+        border-color: var(--font-color5)
+   
+        
+    }
+    50%{
+        border-color: var(--font-color2)
+
+    }
+    100%{
+        transform: rotate(-360deg);
+        border-color: var(--font-color5)
+
+       
+    }
+}
+.cl4{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: var(--font-color5);
+    position: absolute;
+   bottom: 65px;
+   right: 0;
+   border: 1px solid var(--font-color2);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.cl5{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: var(--font-color5);
+    position: absolute;
+   bottom: 65px;
+   left: 0;
+   border: 1px solid var(--font-color2);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.cl6{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: var(--font-color5);
+    position: absolute;
+   top: -18px;
+   left: 80;
+   border: 1px solid var(--font-color2);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.cl4 img, .cl5 img, .cl6 img{
+    width: 60%;
+     border-radius: 4px;
+}
+.circle-three{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 2px dashed var(--font-color5);
+    animation: solar3 40s linear infinite;
+    border-radius: 50%;
+}
+.cl7{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: var(--font-color5);
+    position: absolute;
+   top: -18px;
+   left: 80;
+   border: 1px solid var(--font-color2);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.cl7 img{
+    width: 60%;
+}
+@keyframes solar3 {
+    0%{
+        transform: rotate(0deg);
+        border-color: var(--font-color5)
+
+        
+    }
+    50%{
+        border-color: var(--font-color2)
+
+    }
+    100%{
+        transform: rotate(360deg);
+        border-color: var(--font-color5)
+
+       
+    }
+}
+.user-img{
+    width: 413px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: brightness(1.1);
+   margin-left: -6px;
+    z-index: 100;
+    animation: solarimg 30s linear infinite;
+
+}
+@keyframes solarim {
+    0%{
+        transform: rotate(0deg);
+        
+        
+    }
+    100%{
+        transform: rotate(-360deg);
+       
+    }
+}
+.banner-right{
+  
+    position: relative;
+    width: max-content;
 }
 
 
+
+.cl1, .cl5{
+    animation: animcl1 5s linear infinite;
+}
+@keyframes animcl1 {
+    0%{
+        transform: rotate(-90deg);
+    
+
+    }
+    50%{
+        transform: rotate(90deg);
+    
+
+    }
+    
+    100%{
+        transform: rotate(-90deg);
+   
+
+    }
+}
+.cl2, .cl4, .cl7{
+    animation: animcl2 5s linear infinite;
+}
+@keyframes animcl2 {
+    0%{
+        transform: scale(.8);
+        
+    }
+    50%{
+        transform:scale(1.2);
+    box-shadow: 0px 1px 12px 1px var(--font-color2);
+
+    }
+    
+    100%{
+        transform: scale(.8);
+    }
+}
+.cl3, .cl6{
+    animation: animcl3 5s linear infinite;
+}
+@keyframes animcl3 {
+    0%{
+        transform:rotate(0deg);
+    box-shadow: 0px 1px 10px 1px var(--primary-color);
+
+    }
+    50%{
+    box-shadow: 0px 1px 10px 1px var(--primary-color2);
+
+    }
+    
+    100%{
+        transform:rotate(360deg);
+    box-shadow: 0px 1px 10px 1px var(--primary-color);
+
+    }
+}
