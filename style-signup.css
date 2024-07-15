@@ -243,6 +243,7 @@ form{
 .submit-btn{
     color: var(--background-color);
     height: 45px;
+    width: 90%;
     border-radius: 50px;
     font-size: 20px;
     border: none;
@@ -250,6 +251,11 @@ form{
     background: linear-gradient(to right bottom, var(--font-color), var(--primary-color2));
     cursor: pointer;
     margin-top: 50px;
+    border: 1px solid var(--font-color);
+    margin: 0px auto;
+}
+.submit-btn:hover{
+    width: 100%;
 }
 .footer-h4{
     font-size: 13px;

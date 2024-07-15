@@ -36,6 +36,7 @@
     list-style-type: none;
     color: var(--font-color);
     transition: .3s ease-in-out;
+    
 }
 
 html{
@@ -43,6 +44,7 @@ html{
     overflow-x: hidden;
 }
 body{
+    
     background: url("assets/login2.jpg");
     color: var(--font-color);
     height: 100vh;
@@ -53,7 +55,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    backdrop-filter: blur(30px);
+     backdrop-filter: blur(30px); 
 
   
 }
@@ -243,6 +245,8 @@ form{
 .submit-btn{
     color: var(--background-color);
     height: 45px;
+    width: 90%;
+
     border-radius: 50px;
     font-size: 20px;
     border: none;
@@ -250,6 +254,11 @@ form{
     background: linear-gradient(to right bottom, var(--font-color), var(--primary-color2));
     cursor: pointer;
     margin-top: 50px;
+    border: 1px solid var(--font-color);
+    margin: 0px auto;
+}
+.submit-btn:hover{
+    width: 100%;
 }
 .footer-h4{
     font-size: 13px;
