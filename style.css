@@ -104,7 +104,9 @@ body{
     align-items: center;
     
 }
-
+.nav-items ul li{
+    padding: 0px 2px;
+}
 .nav-items li a{
     font-size: 15px;
     padding: 10px 15px;
@@ -112,20 +114,52 @@ body{
     color: var(--font-color);
 
 }
+
+
+.border-gradientnav {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 2px;
+  }
+  .only-topnav {
+    border-right: 0;
+   border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+  }
+  .border-gradient-greennav {
+    border-image-source: linear-gradient(to right, var(--font-color2), var(--font-color));
+  }
+
+
+
+
 .nav-items li a:hover{
-    color: var(--font-color2);
+    font-weight: 600;
+    color: transparent;
     
-    border-bottom: 1px solid var(--font-color);
-    /* transform:translateY(-.7px); */
+    
+    background-clip: text;
+    background-image: linear-gradient(to right,var(--font-color2), var(--font-color));
+    /* border-bottom: 1px solid var(--font-color);s */
     transition: .2s ease-in-out;
     
 }
 .nav-items li a:focus{
     border-bottom: 1px solid var(--font-color2);
-    color: var(--font-color2);
-    font-weight: 500;
-    transform:translateY(-.7px);
+    color: transparent;
+    font-weight: 600;
+    background-clip: text;
+    background-image: linear-gradient(to right,var(--font-color2), var(--font-color));
+    
 
+}
+#li-home{
+    border-bottom: 1px solid var(--font-color2);
+    color: transparent;
+    font-weight: 700;
+    background-clip: text;
+    background-image: linear-gradient(to right,var(--font-color2), var(--font-color));
 }
 .hire-btn{
     
@@ -765,14 +799,14 @@ body{
     }
 }
 
-.education, .skills{
+.education, .skills, .services{
    display: flex;
    flex-direction: column;
    align-items: center;
    gap: 30px;
     padding: 40px 18%;
 }
-.education h1, .skills h1{
+.education h1, .skills h1, .services h1{
     font-size: 30px;
     background-image: linear-gradient(to right bottom, var(--font-color2), var(--font-color));
     color: transparent;
@@ -829,6 +863,7 @@ body{
     font-size: 14px;
     font-weight: 400;
     margin-left: 10px;
+    color: var(--font-color4);
 }
 .progress-con{
     width: 460px;
@@ -842,9 +877,11 @@ body{
     height: 100%;
     border-radius: 100px;
     margin-left: -10px;
-    background: linear-gradient(to right bottom, var(--primary-color2), var(--primary-color), var(--font-color2));
+    background: linear-gradient(to right bottom, var(--primary-color), var(--primary-color), var(--font-color2));
+    
    
 }
+
 .cssv{
     width: 96%;
 }
@@ -872,7 +909,109 @@ body{
 }
 .skills-cart:hover{
     cursor: pointer;
-    transform: translateY(-3px) scale(1.03);
     transition: .2s ease-in-out;
-   
+    animation: cart-hover-anim .7s ease-in-out infinite;
+}
+@keyframes cart-hover-anim {
+     0%{
+    transform: scale(1);
+
+     }
+     50%{
+        transform: scale(1.03);
+     }
+     100%{
+    transform: scale(1);
+
+     }
+}
+
+.service-cart{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-image: url("assets/hexa-shape-02.png");
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.service-cart:hover{
+    cursor: pointer;
+    animation: cart-hover-anim .7s ease-in-out infinite;
+
+}
+.mobile-app-cart{
+    background-image: url("assets/hexa-shape-01.png");
+}
+.logo-cart-service{
+    background-image: url("assets/logo-01.png");
+    transform: scale(.7);
+    animation: service-logo-anim 2s ease-in-out infinite;
+}
+@keyframes service-logo-anim {
+    0%{
+        transform:scale(.7) translateY(-10px);
+    }
+    50%{
+        transform:scale(.7) translateY(0px);
+    }
+    100%{
+        transform:scale(.7) translateY(-10px);
+    }
+}
+.logo-cart-service:hover{
+    animation: cartlogo-hover-anim .7s ease-in-out infinite;
+
+}
+@keyframes cartlogo-hover-anim {
+    0%{
+   transform: scale(.7);
+
+    }
+    50%{
+       transform: scale(.72);
+    }
+    100%{
+   transform: scale(.7);
+
+    }
+}
+.service-cart img{
+    width: 30%;
+
+}
+.service-cart a{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    color: var(--font-color4);
+}
+.servicelineOne{
+    display: flex;
+  
+}
+.servicelineTwo{
+    display: flex;
+    margin-top: -40px;
+}
+.servicelineThree{
+    display: flex;
+    margin-top: -40px;
+
+}
+.services-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.services h1{
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
