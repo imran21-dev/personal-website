@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 :root{
     --background-color: #0c0c0d;
+    --black-2:#141415;
     --primary-color:#9914c1;
     --primary-color2:#5825c1;
     --font-color: #f5f5ff;
@@ -764,14 +765,14 @@ body{
     }
 }
 
-.education{
+.education, .skills{
    display: flex;
    flex-direction: column;
    align-items: center;
    gap: 30px;
     padding: 40px 18%;
 }
-.education h1{
+.education h1, .skills h1{
     font-size: 30px;
     background-image: linear-gradient(to right bottom, var(--font-color2), var(--font-color));
     color: transparent;
@@ -783,6 +784,7 @@ body{
     flex-direction: column;
     align-items: start;
     gap: 20px;
+   
 }
 #edu-date{
     border-radius: 8px;
@@ -802,9 +804,75 @@ body{
     font-weight: 500;
 }
 
-.education-grid{
+.education-grid, .skills-con{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 100px;
     row-gap: 30px;
+}
+
+.skills-cart{
+    background: var(--black-2);
+    
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 25px;
+    border-radius: 5px;
+   
+}
+.skills-cart h3{
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.progress-con{
+    width: 460px;
+    height: 8px;
+    border-radius: 100px;
+    overflow: hidden;
+    background-color: var(--font-color);
+}
+.progress-value{
+    width: 90%;
+    height: 100%;
+    border-radius: 100px;
+    margin-left: -10px;
+    background: linear-gradient(to right bottom, var(--primary-color2), var(--primary-color), var(--font-color2));
+   
+}
+.cssv{
+    width: 96%;
+}
+.tailv{
+    width: 110%;
+}
+.javav{
+    width: 99%;
+}
+.monv{
+    width: 70%;
+}
+.myv{
+    width: 65%;
+}
+.skills-con{
+    column-gap: 55px;
+    row-gap: 55px;
+}
+.skills{
+    margin-top: 50px;
+}
+.skills h1{
+    padding-bottom: 30px;
+}
+.skills-cart:hover{
+    cursor: pointer;
+    transform: translateY(-3px) scale(1.03);
+    transition: .2s ease-in-out;
+   
 }
