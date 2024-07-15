@@ -86,6 +86,7 @@ body{
   }
 .navbar{
     position: sticky;
+   
     top: 0;
     left: 0;
     display: flex;
@@ -857,6 +858,9 @@ body{
     align-items: start;
     gap: 25px;
     border-radius: 5px;
+
+
+    
    
 }
 .skills-cart h3{
@@ -881,6 +885,9 @@ body{
     
    
 }
+
+
+
 
 .cssv{
     width: 96%;
@@ -969,14 +976,14 @@ body{
 }
 @keyframes cartlogo-hover-anim {
     0%{
-   transform: scale(.7);
+   transform: scale(.7) translateY(0px);
 
     }
     50%{
-       transform: scale(.72);
+       transform: scale(.7)translateY(0px);
     }
     100%{
-   transform: scale(.7);
+   transform: scale(.7)translateY(0px);
 
     }
 }
@@ -1015,3 +1022,10 @@ body{
     margin-bottom: 30px;
     margin-top: 30px;
 }
+
+
+
+
+
+
+
