@@ -92,7 +92,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px 10px;
+    padding: 0px 10px;
     padding-bottom: 0;
     gap: 8%;
     background: rgba(0, 0, 0, 0);
@@ -848,7 +848,9 @@ body{
 
 .skills-cart{
     background: var(--black-2);
-    
+    background-image: url("assets/cart-color.png");
+    background-size: cover;
+    background-blend-mode:soft-light;
     padding-top: 25px;
     padding-left: 30px;
     padding-right: 50px;
@@ -958,6 +960,7 @@ body{
     background-image: url("assets/logo-01.png");
     transform: scale(.7);
     animation: service-logo-anim 2s ease-in-out infinite;
+    
 }
 @keyframes service-logo-anim {
     0%{
