@@ -55,7 +55,7 @@ body{
 }
 .header{
     width: 100%;
-    
+    margin-top: -15px;
   
     background-image: url("assets/bg-header-01.png"), linear-gradient(to bottom, #00000057,#00000060,#0c0c0d);
     background-size: cover;
@@ -189,6 +189,7 @@ body{
     padding: 100px 18%;
     display: flex;
     gap: 30%;
+   
 
 }
 .banner-left{
@@ -196,7 +197,7 @@ body{
     flex-direction: column;
     align-items: start;
     gap: 35px;
-    
+    margin-top: 15px;
 }
 .banner-left h3{
     animation: banner-left-anim .5s ease-in-out;
@@ -492,7 +493,7 @@ body{
     position: relative;
     width: max-content;
     animation: circleOne-anim 3s ease-in-out;
-   
+    margin-top: 15px;
 }
 
    

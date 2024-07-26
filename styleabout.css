@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+:root{
+    --background-color: #0c0c0d;
+    --black-2:#141415;
+    --primary-color:#9914c1;
+    --primary-color2:#5825c1;
+    --font-color: #f5f5ff;
+    --font-color2: #e58fff;
+    --font-color3: #847dd3;
+    --font-color4: #ded0eb;
+    --font-color5: #ded0eb89;
+
+    --primary-font: Sora;
+
+}
+.banner-left{
+    width: 70%;
+    margin-top: 15px;
+}
+.banner-left ul li{
+    font-size: 13px;
+    color: var(--font-color4);
+    list-style-type: disc;
+    line-height: 20px;
+}
+.banner-left ul{
+    line-height: 20px;
+    margin-left: 20px;
+}
+#oko{
+    width: 75%;
+    line-height: 22px;
+}
+.banner{
+
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 0px;
+}
+.banner-rightA{
+    width: 30%;
+    margin-top: 15px;
+    
+}
+.user-img-frame{
+    width: 350px;
+    height: 400px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.user-frame-img{
+    width: 125%;
+    margin-top: -180px;
+    margin-left: -30px;
+    filter:contrast(1) brightness(1);
+    
+
+    
+}
+
+.image-bg{
+     background: var(--font-color5);
+    width: 95%;
+    height: 47%;
+    border-top-left-radius: 100px;
+}
+
+
+.mainA{
+    padding: 0 18%;
+}
+.Professional-In h1{
+    font-size: 30px;
+    background-image: linear-gradient(to right bottom, var(--font-color2), var(--font-color));
+    color: transparent;
+    background-clip: text;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.Professional-In p{
+    font-size: 13px;
+    color: var(--font-color4);
+    line-height: 20px;
+    width: 88%;
+    margin-top: 25px;
+    position: relative;
+    z-index: 100;
+}
+.skill-container{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    position: relative;
+    z-index: 100;
+}
+.skills-cart{
+    background-color: transparent;
+    padding: 20px 0px;
+
+}
+.skills-cart h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: -5px;
+}
+.carts{
+    width: max-content
+}
+.progress-con {
+    width: 390px;
+    height: 8px;
+    border-radius: 100px;
+    overflow: hidden;
+    background-color: var(--font-color);
+}
+.company{
+    margin-top: 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    gap: 80px;
+}
+.all-companies{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.company-info{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.company-names{
+  
+    width: 70%;
+}
+.company-names h2{
+    
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.company-logo img{
+    width: 25%;
+    margin-top: 5px;
+}
+.company-joining-date{
+    color: var(--font-color2);
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid var(--font-color2);
+    padding: 9px 0px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+ 
+}
+.company-joining-date:hover{
+    background: linear-gradient(to right bottom, var(--font-color), var(--primary-color2));
+    color: var(--background-color);
+    border: 1px solid var(--font-color);
+    cursor: not-allowed;
+}
+.current{
+    background-color: var(--font-color2);
+    color: var(--background-color);
+}
+
+#adobe-logo{
+    width: 20%;
+    margin-top: 20px;
+}
+#netflix-logo{
+    width: 20%;
+    margin-top: 20px;
+}
+#download-cv{
+    width: max-content;
+}
+
+
+.background-glow{
+    width: 60%;
+    height: 300%;
+    position: absolute;
+    top: 70%;
+    z-index: 0;
+    background-color: #9914c141;
+    border-radius: 50%;
+    filter: blur(200px);
+    margin: 0 auto;
+}
+.skills-icons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, var(--primary-color), var(--black-2));
+    margin-top: 80px;
+    position: relative;
+    z-index: 100;
+}
+.about-skill-icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: var(--font-color5);
+    border: 1px solid var(--font-color2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-skill-icon img{
+    width: 50%;
+}
+.html-anim{
+    animation: html-anim 2s ease-in-out infinite;
+}
+
+.html-anim{
+    animation: html-anim 1s linear infinite;
+}
+@keyframes html-anim {
+    0%{
+       box-shadow: none;
+       transform: scale(.9);
+    }
+    50%{
+       box-shadow: 0px 0px 40px 1px var(--font-color2);
+       transform: scale(1);
+
+    }
+    100%{
+       box-shadow: none;
+       transform: scale(.9);
+
+    }
+}
+.css-anim{
+    animation: css-anim 1s linear infinite .1s;
+}
+@keyframes css-anim {
+    0%{
+       box-shadow: none;
+       transform: scale(.9);
+
+    }
+    50%{
+       box-shadow: 0px 0px 40px 1px var(--font-color2);
+       transform: scale(1);
+
+
+    }
+    100%{
+       box-shadow: none;
+       transform: scale(.9);
+
+
+    }
+}
+.js-anim{
+    animation: js-anim 1s linear infinite .2s;
+}
+@keyframes js-anim {
+    0%{
+       box-shadow: none;
+       transform: scale(.9);
+
+    }
+    50%{
+       box-shadow: 0px 0px 40px 1px var(--font-color2);
+       transform: scale(1);
+
+
+    }
+    100%{
+       box-shadow: none;
+       transform: scale(.9);
+
+
+    }
+}
+.mongo-anim{
+    animation: mongo-anim 1s linear infinite .3s;
+}
+@keyframes mongo-anim {
+    0%{
+       box-shadow: none;
+       transform: scale(.9);
+
+    }
+    50%{
+       box-shadow: 0px 0px 40px 1px var(--font-color2);
+       transform: scale(1);
+
+
+    }
+    100%{
+       box-shadow: none;
+       transform: scale(.9);
+
+
+    }
+}
+.tail-anim{
+    animation: tail-anim 1s linear infinite .4s;
+}
+@keyframes tail-anim {
+    0%{
+       box-shadow: none;
+       transform: scale(.9);
+
+    }
+    50%{
+       box-shadow: 0px 0px 40px 1px var(--font-color2);
+       transform: scale(1);
+
+
+    }
+    100%{
+       box-shadow: none;
+       transform: scale(.9);
+
+
+    }
+}
+.sql-anim{
+    animation: sql-anim 1s linear infinite .5s;
+}
+@keyframes sql-anim {
+    0%{
+       box-shadow: none;
+       transform: scale(.9);
+
+    }
+    50%{
+       box-shadow: 0px 0px 40px 1px var(--font-color2);
+       transform: scale(1);
+
+
+    }
+    100%{
+       box-shadow: none;
+       transform: scale(.9);
+
+
+    }
+}
+.about-testi{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    z-index: 100;
+}
+.about-testi h1{
+    width: 100%;
+    text-align: left;
+}
+.about-testi ul{
+    margin-top: 20px;
+}
+
+.footer{
+    position: relative;
+    z-index: 100;
+}
+.career-goal{
+    position: relative;
+    z-index: 100;
+    margin-top: 100px;
+}
+.career-title{
+    font-size: 30px;
+    background-image: linear-gradient(to right bottom, var(--font-color2), var(--font-color));
+    color: transparent;
+    background-clip: text;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.career-goals-container h2{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--primary-color);
+    margin-bottom: 5px;
+}
+.career-goals-container ul{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+}
+.career-goals-container li{
+    font-size: 13px;
+    color: var(--font-color4);
+}
+.career-goals-container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap:15%;
+    row-gap: 30px;
+    margin-top: 30px;
+}
+.hobby h1{
+    font-size: 30px;
+    background-image: linear-gradient(to right bottom, var(--font-color2), var(--font-color));
+    color: transparent;
+    background-clip: text;
+    font-weight: 600;
+}
+.hobby{
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-top: 30px;
+}
+.hobbies{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.hobby-cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.hobby-cart a{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #c023f010;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ded0eb48;
+}
+
+.hobby-cart h3{
+    font-size: 13px;
+    color: var(--font-color4);
+    font-weight: 500;
+}
+.hobby-cart a i{
+    font-size: 20px;
+    color: var(--primary-color);
+}
+
+
+
+
+
+
+
+
