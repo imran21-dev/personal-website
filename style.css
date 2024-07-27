@@ -13,6 +13,21 @@
     --primary-font: Sora;
 
 }
+.video1{
+    width: 100%;
+    filter: hue-rotate(90deg);
+    mix-blend-mode:color-dodge;
+    position: absolute;
+    top: -400px;
+    left: 0;
+    z-index: 99;
+    opacity: 100%;
+    display: block;
+}
+.video1::-webkit-media-controls {
+    display: none;
+  }
+
 ::-webkit-scrollbar{
     width: 5px;
 }
@@ -56,11 +71,11 @@ body{
 .header{
     width: 100%;
     margin-top: -15px;
-  
+   position: relative;
     background-image: url("assets/bg-header-01.png"), linear-gradient(to bottom, #00000057,#00000060,#0c0c0d);
     background-size: cover;
     background-repeat: no-repeat;
-    
+    z-index: 999;
     background-blend-mode:overlay;  
     
 }

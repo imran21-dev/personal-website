@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+:root{
+    --background-color: #0c0c0d;
+    --black-2:#141415;
+    --primary-color:#9914c1;
+    --primary-color2:#5825c1;
+    --font-color: #f5f5ff;
+    --font-color2: #e58fff;
+    --font-color3: #847dd3;
+    --font-color4: #ded0eb;
+    --font-color5: #ded0eb89;
+
+    --primary-font: Sora;
+
+}
+
+.header{
+   height: 800px;
+
+  
+}
+
+.projects{
+    margin-top: -650px;
+    position: relative;
+    z-index: 100;
+
+}
+
+.projects-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 50px;
+}
+.project-four{
+    background: url("assets/uiux.jpg");
+    background-position-x: 40%;
+    background-size: cover;
+}
+.project-five{
+    background: url("assets/app\ desi.jpg");
+    background-position-x: 40%;
+    background-position-y: 40%;
+    background-size: cover;
+}
+.project-six{
+    background: url("assets/appdeve.jpg");
+    background-position-x: 40%;
+    background-position-y: 40%;
+    background-size: cover;
+}
+.project-seven{
+    background: url("assets/uuuuui.jpg");
+    background-position-x: 40%;
+    background-position-y: 40%;
+    background-size: cover;
+}
+.project-eight{
+    background: url("assets/app\ desss.png");
+    background-position-x: 40%;
+    background-position-y: 40%;
+    background-size: cover;
+}
+.project-nine{
+    background: url("assets/appdede.jpg");
+    background-position-x: 40%;
+    background-position-y: 40%;
+    background-size: cover;
+}
+.projects-contact-container{
+    padding: 0px 18%;
+}
+.background-glow-P{
+    width: 60%;
+    height: 120%;
+    position: absolute;
+    top: 10%;
+    z-index: 0;
+    background-color: #9914c141;
+    border-radius: 50%;
+    filter: blur(200px);
+    margin: 0 auto;
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+    padding-bottom: 0;
+    gap: 4%;
+    background: rgba(255, 0, 0, 0);
+    backdrop-filter: blur(5px);
+    z-index: 999;
+}
+
+.projects-container{
+    position: relative;
+    z-index: 110;
+}
+
+.footer{
+    z-index: 999;
+}
