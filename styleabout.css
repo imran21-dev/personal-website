@@ -13,11 +13,14 @@
     --primary-font: Sora;
 
 }
+.header{
+    z-index: 1;
+}
 .background-glow{
     width: 60%;
-    height: 330%;
+    height: 380%;
     position: absolute;
-    top: 110%;
+    top: 50%;
     z-index: 50;
     background-color: #9914c141;
     border-radius: 50%;
@@ -45,7 +48,7 @@
 
 .banner{
      position: relative;
-     z-index: 999;
+     z-index: 99;
     display: flex;
     align-items: start;
     justify-content: center;
