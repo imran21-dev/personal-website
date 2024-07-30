@@ -115,3 +115,19 @@
 .projects-switch, .projects-title{
     z-index: 999;
 }
+.projects-switch a {
+    height: 100%;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 0 20px;
+}
+.projects-switch a:hover{
+    background: linear-gradient(to right bottom, var(--font-color), var(--primary-color2));
+    color: var(--background-color);
+    font-weight: 500;
+  
+}

@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+:root{
+    --background-color: #0c0c0d;
+    --black-2:#141415;
+    --primary-color:#9914c1;
+    --primary-color2:#5825c1;
+    --font-color: #f5f5ff;
+    --font-color2: #e58fff;
+    --font-color3: #847dd3;
+    --font-color4: #ded0eb;
+    --font-color5: #ded0eb89;
+
+    --primary-font: Sora;
+
+}
+.header{
+    height: 600px;
+}
+.plan-head{
+    margin-top: 150px;
+}
+.plan-head h2{
+    color: var(--font-color);
+    font-weight: 400;
+    font-size: 25px;
+}
+.plan-head h1{
+    font-weight: 600;
+}
+
+.blog-containerss{
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+ 
+}
+.blog-cart-details{
+    padding: 0 18%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    position: relative;
+    z-index: 999;
+ 
+}
+.b-detail-head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.b-detail-head h1{
+ 
+    margin-bottom: 0px;
+    font-size: 45px;
+    font-weight: 600;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right bottom, var(--font-color2), var(--font-color));
+}
+.b-detail-head h4{
+    font-size: 14px;
+    font-weight: 400;
+    background: var(--primary-color2);
+    border-radius: 50px;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.b-detail-img{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-image: url("assets/fullstack.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.b-detail-img {
+    position: relative;
+  }
+  
+  .b-detail-img::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 0px;
+    padding: 1px; /* control the border thickness */
+    background: linear-gradient(45deg, var(--primary-color), var(--font-color2));
+    -webkit-mask: 
+      linear-gradient(#fff 0 0) content-box, 
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;
+    pointer-events: none;
+  }
+.b-detail-img img{
+    width: 100%;
+
+}
+
+.description{
+    padding: 0 18%;
+    position: relative;
+    z-index: 999;
+}
+.desc-con{
+    width: 100%;
+    background: #0c0c0d67;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 35px;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+.des-head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.des-head h1{
+    margin-bottom: 0px;
+    font-size: 30px;
+    font-weight: 600;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, var(--font-color2), var(--font-color));
+}
+.desc-react{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.desc-react h4{
+    font-size: 16px;
+    font-weight: 500;
+    background: transparent;
+    border-radius: 50px;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid var(--font-color3);
+    color: var(--font-color3);
+    cursor: pointer;
+}
+.desc-react h4:hover{
+    background: linear-gradient(to right, var(--font-color), var(--primary-color2));
+    border-color: var(--font-color);
+    color: var(--background-color);
+}
+.desc-react h4:hover .like-icon{
+    color: var(--background-color);
+}
+.like-icon{
+    font-size: 20px;
+    color: var(--font-color3);
+}
+.desc-con p{
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--font-color4);
+    line-height: 20px;
+}
+
+.review{
+    padding: 0 18%;
+    margin-top: -30px;
+}
+.review-con{
+    width: 100%;
+    background: #0c0c0d67;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    padding: 40px 35px;
+    border-radius: 20px;
+    margin-top: 80px;
+    position: relative;
+    z-index: 999;
+}
+.review-con h1{
+    margin-bottom: 0px;
+    font-size: 30px;
+    font-weight: 600;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, var(--font-color2), var(--font-color));
+}
+#comment{
+    width: 100%;
+    height: 120px;
+    resize: none;
+    background: transparent;
+    border-radius: 20px;
+    padding: 15px 25px;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--font-color4);
+    border: none;
+}
+#comment::placeholder{
+    color: var(--font-color5);
+}
+.comment-con{
+    width: 100%;
+    border-radius: 20px;
+
+}
+.comment-con {
+    position: relative;
+  }
+  
+  .comment-con::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 20px;
+    padding: 1px; /* control the border thickness */
+    background: linear-gradient(645deg, var(--primary-color), var(--font-color2));
+    -webkit-mask: 
+      linear-gradient(#fff 0 0) content-box, 
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;
+    pointer-events: none;
+  }
+  .comment-user-cart{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: default;
+     transition: .1s;
+  }
+  .comment-user-cart:hover{
+    background: #c300ff38;
+  }
+
+  .comment-user-photo-con{
+    width: 60px;
+    height: 70px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .comment-user-photo-con img{
+    width: 100%;
+    border-radius: 10px;
+  }
+  .comment-user-name{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--font-color4);
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    
+  }
+  .comment-user-name span{
+    font-size: 10px;
+    color: var(--font-color2);
+    font-weight: 400;
+  }
+  .comment-user-skill{
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--primary-color2);
+    margin-top: -10px;
+  }
+  .comment-value{
+    font-size: 13px;
+    color: var(--font-color4);
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .comment-user-info{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 12px;
+  }
+  .comment-user-con{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+  .comment-grid{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+  }
+  .sort-btn{
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--font-color2);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  .sort-btn:hover{
+    background: #cc13e126;
+  }
+  .sort-btn i{
+    color: var(--font-color2);
+    font-size: 15px;
+  }
+  /* glow */
+  .gloww {
+    width: 80%;
+    height: 3000px;
+    background-color: #9914c141;
+
+    filter: blur(100px);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    margin: 0 auto;
+}
+.tags{
+    padding: 0 18%;
+}
+.tag-cart-con{
+    width: 100%;
+    background: #0c0c0d67;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+    padding: 40px 35px;
+    border-radius: 20px;
+    margin-top: 80px;
+    position: relative;
+    z-index: 999;
+}
+.tag-cart-con h1{
+    margin-bottom: 0px;
+    font-size: 30px;
+    font-weight: 600;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, var(--font-color2), var(--font-color));
+}
+.tags-con{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.tags-con a{
+    color: var(--font-color3);
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid var(--font-color3);
+    border-radius: 50px;
+    padding: 10px 15px;
+}
+.tags-con a:hover{
+    background: linear-gradient(to right, var(--font-color2), var(--font-color));
+    color: var(--background-color);
+    border-color: var(--font-color);
+}

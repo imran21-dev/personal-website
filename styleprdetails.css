@@ -52,7 +52,37 @@
      justify-content: center;
      overflow: hidden;
      border-radius: 30px;
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+    background-image: url("assets/uiui.jpg");
+
 }
+.PD2{
+    background-image: url("assets/appdesign.jpg");
+}
+.PD3{
+    background-image: url("assets/appdevelp.jpg");
+}
+.PD4{
+    background-image: url("assets/uiux.jpg");
+}
+.PD5{
+    background-image: url("assets/app\ desi.jpg");
+}
+.PD6{
+    background-image: url("assets/appdeve.jpg");
+}
+.PD7{
+    background-image: url("assets/uuuuui.jpg");
+}
+.PD8{
+    background-image: url("assets/app\ desss.png");
+}
+.PD9{
+    background-image: url("assets/appdede.jpg");
+}
+
 .project-detail-img img{
     width: 100%;
     border-radius: 30px;
@@ -157,8 +187,10 @@
 #pdetails-contact{
     position: relative;
     z-index: 999;
+    
 }
-.project-cart-img img{
-    width: 100%;
-    opacity: 0;
-}
+
+
+
+
+

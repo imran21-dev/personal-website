@@ -76,3 +76,419 @@ function checkUpThree() {
              Down.style.display = "flex"
     
 }
+
+
+// project cart--------
+
+
+
+function checkAll() {
+      window.location.href='#header'
+      const PopCart = document.getElementById("PopCart")
+      const CurrentDiv = document.getElementById("currentDiv")
+      const popTitle = document.getElementById("popTitle")
+      const Title = document.getElementById("forText")
+      const Titletext = Title.children[3].innerText
+      const Ratetext = Title.children[1]
+       const RateNumber = Ratetext.children[1].innerHTML
+      const Rate = document.getElementById("popRate")
+        const PopRate = Rate.innerHTML
+        const Popuser = document.getElementById("popUser")
+            const PopUserValue = Popuser.innerHTML
+        const CurrentUser = document.getElementById("CurrentUser")
+        const CurrentUserValue = CurrentUser.innerHTML 
+        const PopTitleHead  = document.getElementById("popTitleHead") 
+        const PopTitleHeadValue = PopTitleHead.innerText
+        const PopButton = document.getElementById("popButton")
+        const PopLeftBtn = PopButton.children[0]
+        const CurrentBtn = document.getElementById("CurrentBtn")
+        const CurrentBtnValue = CurrentBtn.innerText
+
+
+
+        const style = window.getComputedStyle(PopCart)    
+        const style2 = window.getComputedStyle(CurrentDiv)
+             
+              PopCart.style.backgroundImage = style2.backgroundImage
+              popTitle.innerText = Titletext
+              Rate.innerHTML = RateNumber
+              Popuser.innerHTML = CurrentUserValue
+              PopTitleHead.innerText = Titletext
+              PopLeftBtn.innerText = CurrentBtnValue
+  
+             
+
+}
+
+function checkAll2() {
+      window.location.href='#header'
+      const PopCart = document.getElementById("PopCart")
+      const CurrentDiv = document.getElementById("currentDiv2")
+      const popTitle = document.getElementById("popTitle")
+      const Title = document.getElementById("forText2")
+      const Titletext = Title.children[3].innerText
+      const Ratetext = Title.children[1]
+       const RateNumber = Ratetext.children[1].innerHTML
+      const Rate = document.getElementById("popRate")
+        const PopRate = Rate.innerHTML
+        const Popuser = document.getElementById("popUser")
+            const PopUserValue = Popuser.innerHTML
+        const CurrentUser = document.getElementById("CurrentUser2")
+        const CurrentUserValue = CurrentUser.innerHTML 
+        const PopTitleHead  = document.getElementById("popTitleHead") 
+        const PopTitleHeadValue = PopTitleHead.innerText
+        const PopButton = document.getElementById("popButton")
+        const PopLeftBtn = PopButton.children[0]
+        const CurrentBtn = document.getElementById("CurrentBtn2")
+        const CurrentBtnValue = CurrentBtn.innerText
+
+
+
+        const style = window.getComputedStyle(PopCart)    
+        const style2 = window.getComputedStyle(CurrentDiv)
+             
+              PopCart.style.backgroundImage = style2.backgroundImage
+              popTitle.innerText = Titletext
+              Rate.innerHTML = RateNumber
+              Popuser.innerHTML = CurrentUserValue
+              PopTitleHead.innerText = Titletext
+              PopLeftBtn.innerText = CurrentBtnValue
+  
+             
+
+}
+
+function checkAll3() {
+      window.location.href='#header'
+      const PopCart = document.getElementById("PopCart")
+      const CurrentDiv = document.getElementById("currentDiv3")
+      const popTitle = document.getElementById("popTitle")
+      const Title = document.getElementById("forText3")
+      const Titletext = Title.children[3].innerText
+      const Ratetext = Title.children[1]
+       const RateNumber = Ratetext.children[1].innerHTML
+      const Rate = document.getElementById("popRate")
+        const PopRate = Rate.innerHTML
+        const Popuser = document.getElementById("popUser")
+            const PopUserValue = Popuser.innerHTML
+        const CurrentUser = document.getElementById("CurrentUser3")
+        const CurrentUserValue = CurrentUser.innerHTML 
+        const PopTitleHead  = document.getElementById("popTitleHead") 
+        const PopTitleHeadValue = PopTitleHead.innerText
+        const PopButton = document.getElementById("popButton")
+        const PopLeftBtn = PopButton.children[0]
+        const CurrentBtn = document.getElementById("CurrentBtn3")
+        const CurrentBtnValue = CurrentBtn.innerText
+
+
+
+        const style = window.getComputedStyle(PopCart)    
+        const style2 = window.getComputedStyle(CurrentDiv)
+             
+              PopCart.style.backgroundImage = style2.backgroundImage
+              popTitle.innerText = Titletext
+              Rate.innerHTML = RateNumber
+              Popuser.innerHTML = CurrentUserValue
+              PopTitleHead.innerText = Titletext
+              PopLeftBtn.innerText = CurrentBtnValue
+  
+             
+
+}
+function checkAll4() {
+      window.location.href='#header'
+      const PopCart = document.getElementById("PopCart")
+      const CurrentDiv = document.getElementById("currentDiv4")
+      const popTitle = document.getElementById("popTitle")
+      const Title = document.getElementById("forText4")
+      const Titletext = Title.children[3].innerText
+      const Ratetext = Title.children[1]
+       const RateNumber = Ratetext.children[1].innerHTML
+      const Rate = document.getElementById("popRate")
+        const PopRate = Rate.innerHTML
+        const Popuser = document.getElementById("popUser")
+            const PopUserValue = Popuser.innerHTML
+        const CurrentUser = document.getElementById("CurrentUser4")
+        const CurrentUserValue = CurrentUser.innerHTML 
+        const PopTitleHead  = document.getElementById("popTitleHead") 
+        const PopTitleHeadValue = PopTitleHead.innerText
+        const PopButton = document.getElementById("popButton")
+        const PopLeftBtn = PopButton.children[0]
+        const CurrentBtn = document.getElementById("CurrentBtn4")
+        const CurrentBtnValue = CurrentBtn.innerText
+
+
+
+        const style = window.getComputedStyle(PopCart)    
+        const style2 = window.getComputedStyle(CurrentDiv)
+             
+              PopCart.style.backgroundImage = style2.backgroundImage
+              popTitle.innerText = Titletext
+              Rate.innerHTML = RateNumber
+              Popuser.innerHTML = CurrentUserValue
+              PopTitleHead.innerText = Titletext
+              PopLeftBtn.innerText = CurrentBtnValue
+  
+             
+
+}
+
+function checkAll5() {
+      window.location.href='#header'
+      const PopCart = document.getElementById("PopCart")
+      const CurrentDiv = document.getElementById("currentDiv5")
+      const popTitle = document.getElementById("popTitle")
+      const Title = document.getElementById("forText5")
+      const Titletext = Title.children[3].innerText
+      const Ratetext = Title.children[1]
+       const RateNumber = Ratetext.children[1].innerHTML
+      const Rate = document.getElementById("popRate")
+        const PopRate = Rate.innerHTML
+        const Popuser = document.getElementById("popUser")
+            const PopUserValue = Popuser.innerHTML
+        const CurrentUser = document.getElementById("CurrentUser5")
+        const CurrentUserValue = CurrentUser.innerHTML 
+        const PopTitleHead  = document.getElementById("popTitleHead") 
+        const PopTitleHeadValue = PopTitleHead.innerText
+        const PopButton = document.getElementById("popButton")
+        const PopLeftBtn = PopButton.children[0]
+        const CurrentBtn = document.getElementById("CurrentBtn5")
+        const CurrentBtnValue = CurrentBtn.innerText
+
+
+
+        const style = window.getComputedStyle(PopCart)    
+        const style2 = window.getComputedStyle(CurrentDiv)
+             
+              PopCart.style.backgroundImage = style2.backgroundImage
+              popTitle.innerText = Titletext
+              Rate.innerHTML = RateNumber
+              Popuser.innerHTML = CurrentUserValue
+              PopTitleHead.innerText = Titletext
+              PopLeftBtn.innerText = CurrentBtnValue
+  
+             
+
+}
+function checkAll6() {
+      window.location.href='#header'
+      const PopCart = document.getElementById("PopCart")
+      const CurrentDiv = document.getElementById("currentDiv6")
+      const popTitle = document.getElementById("popTitle")
+      const Title = document.getElementById("forText6")
+      const Titletext = Title.children[3].innerText
+      const Ratetext = Title.children[1]
+       const RateNumber = Ratetext.children[1].innerHTML
+      const Rate = document.getElementById("popRate")
+        const PopRate = Rate.innerHTML
+        const Popuser = document.getElementById("popUser")
+            const PopUserValue = Popuser.innerHTML
+        const CurrentUser = document.getElementById("CurrentUser6")
+        const CurrentUserValue = CurrentUser.innerHTML 
+        const PopTitleHead  = document.getElementById("popTitleHead") 
+        const PopTitleHeadValue = PopTitleHead.innerText
+        const PopButton = document.getElementById("popButton")
+        const PopLeftBtn = PopButton.children[0]
+        const CurrentBtn = document.getElementById("CurrentBtn6")
+        const CurrentBtnValue = CurrentBtn.innerText
+
+
+
+        const style = window.getComputedStyle(PopCart)    
+        const style2 = window.getComputedStyle(CurrentDiv)
+             
+              PopCart.style.backgroundImage = style2.backgroundImage
+              popTitle.innerText = Titletext
+              Rate.innerHTML = RateNumber
+              Popuser.innerHTML = CurrentUserValue
+              PopTitleHead.innerText = Titletext
+              PopLeftBtn.innerText = CurrentBtnValue
+  
+             
+
+}
+function checkAll7() {
+      window.location.href='#header'
+      const PopCart = document.getElementById("PopCart")
+      const CurrentDiv = document.getElementById("currentDiv7")
+      const popTitle = document.getElementById("popTitle")
+      const Title = document.getElementById("forText7")
+      const Titletext = Title.children[3].innerText
+      const Ratetext = Title.children[1]
+       const RateNumber = Ratetext.children[1].innerHTML
+      const Rate = document.getElementById("popRate")
+        const PopRate = Rate.innerHTML
+        const Popuser = document.getElementById("popUser")
+            const PopUserValue = Popuser.innerHTML
+        const CurrentUser = document.getElementById("CurrentUser7")
+        const CurrentUserValue = CurrentUser.innerHTML 
+        const PopTitleHead  = document.getElementById("popTitleHead") 
+        const PopTitleHeadValue = PopTitleHead.innerText
+        const PopButton = document.getElementById("popButton")
+        const PopLeftBtn = PopButton.children[0]
+        const CurrentBtn = document.getElementById("CurrentBtn7")
+        const CurrentBtnValue = CurrentBtn.innerText
+
+
+
+        const style = window.getComputedStyle(PopCart)    
+        const style2 = window.getComputedStyle(CurrentDiv)
+             
+              PopCart.style.backgroundImage = style2.backgroundImage
+              popTitle.innerText = Titletext
+              Rate.innerHTML = RateNumber
+              Popuser.innerHTML = CurrentUserValue
+              PopTitleHead.innerText = Titletext
+              PopLeftBtn.innerText = CurrentBtnValue
+  
+             
+
+}
+function checkAll8() {
+      window.location.href='#header'
+      const PopCart = document.getElementById("PopCart")
+      const CurrentDiv = document.getElementById("currentDiv8")
+      const popTitle = document.getElementById("popTitle")
+      const Title = document.getElementById("forText8")
+      const Titletext = Title.children[3].innerText
+      const Ratetext = Title.children[1]
+       const RateNumber = Ratetext.children[1].innerHTML
+      const Rate = document.getElementById("popRate")
+        const PopRate = Rate.innerHTML
+        const Popuser = document.getElementById("popUser")
+            const PopUserValue = Popuser.innerHTML
+        const CurrentUser = document.getElementById("CurrentUser8")
+        const CurrentUserValue = CurrentUser.innerHTML 
+        const PopTitleHead  = document.getElementById("popTitleHead") 
+        const PopTitleHeadValue = PopTitleHead.innerText
+        const PopButton = document.getElementById("popButton")
+        const PopLeftBtn = PopButton.children[0]
+        const CurrentBtn = document.getElementById("CurrentBtn8")
+        const CurrentBtnValue = CurrentBtn.innerText
+
+
+
+        const style = window.getComputedStyle(PopCart)    
+        const style2 = window.getComputedStyle(CurrentDiv)
+             
+              PopCart.style.backgroundImage = style2.backgroundImage
+              popTitle.innerText = Titletext
+              Rate.innerHTML = RateNumber
+              Popuser.innerHTML = CurrentUserValue
+              PopTitleHead.innerText = Titletext
+              PopLeftBtn.innerText = CurrentBtnValue
+  
+             
+
+}
+function checkAll9() {
+      window.location.href='#header'
+      const PopCart = document.getElementById("PopCart")
+      const CurrentDiv = document.getElementById("currentDiv9")
+      const popTitle = document.getElementById("popTitle")
+      const Title = document.getElementById("forText9")
+      const Titletext = Title.children[3].innerText
+      const Ratetext = Title.children[1]
+       const RateNumber = Ratetext.children[1].innerHTML
+      const Rate = document.getElementById("popRate")
+        const PopRate = Rate.innerHTML
+        const Popuser = document.getElementById("popUser")
+            const PopUserValue = Popuser.innerHTML
+        const CurrentUser = document.getElementById("CurrentUser9")
+        const CurrentUserValue = CurrentUser.innerHTML 
+        const PopTitleHead  = document.getElementById("popTitleHead") 
+        const PopTitleHeadValue = PopTitleHead.innerText
+        const PopButton = document.getElementById("popButton")
+        const PopLeftBtn = PopButton.children[0]
+        const CurrentBtn = document.getElementById("CurrentBtn9")
+        const CurrentBtnValue = CurrentBtn.innerText
+
+
+
+        const style = window.getComputedStyle(PopCart)    
+        const style2 = window.getComputedStyle(CurrentDiv)
+             
+              PopCart.style.backgroundImage = style2.backgroundImage
+              popTitle.innerText = Titletext
+              Rate.innerHTML = RateNumber
+              Popuser.innerHTML = CurrentUserValue
+              PopTitleHead.innerText = Titletext
+              PopLeftBtn.innerText = CurrentBtnValue
+  
+             
+
+}
+
+// blog------------
+
+
+function checkBlog() {
+      const PopBlog = document.getElementById("PopBlog")
+            const PopImg = window.getComputedStyle(PopBlog)
+            const PopImgValue = PopImg.backgroundImage
+
+      const BlogCart = document.getElementById("BlogCart")
+            const BlogCartChild = BlogCart.children[0].src
+            const BlogCartImg = "url('" + BlogCartChild + "')"
+
+
+      const PopTitle = document.getElementById("PopTitle")
+           const PopTitleValue = PopTitle.innerText
+
+
+          const CurrentTitle = BlogCart.children[1].innerText
+
+
+            PopBlog.style.backgroundImage = BlogCartImg
+            PopTitle.innerText = CurrentTitle
+                
+    
+    
+      
+}
+function checkBlog2() {
+      const PopBlog = document.getElementById("PopBlog")
+            const PopImg = window.getComputedStyle(PopBlog)
+            const PopImgValue = PopImg.backgroundImage
+
+      const BlogCart = document.getElementById("BlogCart2")
+            const BlogCartChild = BlogCart.children[0].src
+            const BlogCartImg = "url('" + BlogCartChild + "')"
+
+
+      const PopTitle = document.getElementById("PopTitle")
+           const PopTitleValue = PopTitle.innerText
+
+
+          const CurrentTitle = BlogCart.children[1].innerText
+
+
+            PopBlog.style.backgroundImage = BlogCartImg
+            PopTitle.innerText = CurrentTitle
+                   
+}
+function checkBlog3() {
+      const PopBlog = document.getElementById("PopBlog")
+            const PopImg = window.getComputedStyle(PopBlog)
+            const PopImgValue = PopImg.backgroundImage
+
+      const BlogCart = document.getElementById("BlogCart3")
+            const BlogCartChild = BlogCart.children[0].src
+            const BlogCartImg = "url('" + BlogCartChild + "')"
+
+
+      const PopTitle = document.getElementById("PopTitle")
+           const PopTitleValue = PopTitle.innerText
+
+
+          const CurrentTitle = BlogCart.children[1].innerText
+
+
+            PopBlog.style.backgroundImage = BlogCartImg
+            PopTitle.innerText = CurrentTitle
+                   
+}
+
+
+
+
