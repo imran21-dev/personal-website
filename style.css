@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
 :root{
     --background-color: #0c0c0d;
     --black-2:#141415;
@@ -2246,5 +2248,236 @@ input::-webkit-inner-spin-button {
 }
 .SKIILBTN:hover{
     padding: 12px 40px;
+
+}
+#menu-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  
+   
+}
+#menu-bar:hover{
+    background: linear-gradient(135deg,rgba(255,255,255,0.1)
+    ,rgba(255,255,255,0));
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+box-shadow: 0 8px 32px 0 rgba(73, 10, 128, 0.37);
+}
+.menu-icon{
+   font-size: 20px;
+    color: var(--font-color2);
+}
+#mobile-list-cart{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: max-content;
+   padding: 20px 20px;
+   border-radius: 30px;
+   background: linear-gradient(135deg,rgba(255,255,255,0.1)
+                  ,rgba(255,255,255,0));
+     backdrop-filter: blur(10px);
+     -webkit-backdrop-filter: blur(10px);
+     border: 1px solid rgba(255,255,255,0.18);
+     
+}
+#mobile-list-cart ul{
+    display: flex;
+    flex-direction: column;
+}
+#mobile-list-cart{
+    display: none;
+}
+#menu-bar{
+    display: none;
+}
+.mobile-nav-name{
+    display: none;
+}
+
+/* Mobile-Devices */
+
+@media screen and (max-width: 576px) {
+   .footer-last-texts,
+   .footer-sec,
+   .contact,
+   .testimonials,
+   .subscribe,
+   .blog,
+   .my-plans,
+   .projects,
+   .services,
+   .skills,
+   .education,
+   .about-container,
+   .banner{
+    display: none;
+   }
+   .navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0px;
+    padding-bottom: 0;
+    gap: 0%;
+    background: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(5px);
+    z-index: 999;
+   
+}
+   #navlist-web{
+    display: none;
+   }
+   .hire-btn{
+    display: none;
+   }
+   #menu-bar{
+    display: flex;
+    margin-top: 5px;
+   
+}
+   #menu-barTwo{
+    display: flex;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.mobile-nav-bg{
+    display: flex;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    z-index: 999;
+    overflow-x: hidden;
+    border-radius: 30px;
+}
+#mobile-list-cart{
+    display: none;
+   
+}
+.js-class{
+    animation: mobile-cart-anim .2s ease-in-out;
+
+}
+@keyframes mobile-cart-anim {
+    0%{
+        transform: translateX(160px);
+
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.close-class{
+    animation: close-anim .2s ease-in-out forwards;
+}
+@keyframes close-anim {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(160px);
+        display: none;
+    }
+}
+.menu-icon-tr{
+    animation: MenuIcon-anim .2s ease-in-out forwards;
+}
+@keyframes MenuIcon-anim {
+    0%{
+        transform: translateX(0px);
+
+    }
+    100%{
+        transform: translateX(100px);
+
+    }
+}
+.menu-icon-in{
+    animation: MenuIcon-animIn .2s ease-in-out forwards;
+
+}
+@keyframes MenuIcon-animIn {
+    0%{
+        transform: translateX(100px);
+
+    }
+    100%{
+        transform: translateX(0px);
+
+    }
+}
+
+.menu-bar-con{
+    overflow-x: hidden;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0 12%;
+    
+}
+.header-logo{
+    display: none;
+}
+.mobile-nav-name{
+    display: flex;
+    padding: 30px 12%;
+ 
+    
+    
+}
+#Mobile-header-title{
+   font-family: Agbalumo;
+    font-size: 20px;
+    background: linear-gradient( to right, var(--font-color2), var(--font-color));
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav-items li a {
+    font-size: 12px;
+    padding: 10px 15px;
+    display: flex;
+    color: var(--font-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }

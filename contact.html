@@ -98,26 +98,27 @@
             </div>
             <div data-aos="fade-left" class="contact-right">
                      <h1 class="form-title">Reach me</h1>
-                     <form action="">
-                         <div class="name">
-                          <label for="name">Full Name</label> 
-                         <input required type="text" placeholder="Enter Your Full Name">
-                         </div>
-  
-  
-                       <div class="number">
-                        <label for="name">Phone Number</label> 
-                        <input required type="number" placeholder="01xxxxxxxxxxx">
+                     <form action="https://api.web3forms.com/submit" method="post">
+                      <input type="hidden" name="access_key" value="a4282212-2c5d-4fd6-92bb-52a6a6c5358e">
+                       <div class="name">
+                        <label for="name">Full Name</label> 
+                       <input name="Name" required type="text" placeholder="Enter Your Full Name">
                        </div>
-  
-  
-                        <div class="email">
-                          <label for="email">Email</label>
-                          <input required type="email" placeholder="Enter Your Email">
-                        </div>
-                          
-                        <input id="submit-form-btn" type="submit" value="Submit">
-                     </form>
+
+
+                     <div class="number">
+                      <label for="name">Phone Number</label> 
+                      <input name="Number" required type="number" placeholder="01xxxxxxxxxxx">
+                     </div>
+
+
+                      <div class="email">
+                        <label for="email">Email</label>
+                        <input name="Email" required type="email" placeholder="Enter Your Email">
+                      </div>
+                        
+                      <input id="submit-form-btn" type="submit" value="Submit">
+                   </form>
             </div>
        </section>
 

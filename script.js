@@ -512,4 +512,36 @@ function checkBlog4() {
 
 
 
+// Script for Mobile Devices--------
+
+
+
+function checkMobileMenu() {
+      
+            const MenuItem = document.getElementById("mobile-list-cart")
+            const MenuItemIcon = document.getElementById("menu-bar")
+                 MenuItem.style.display = "flex"
+                 MenuItem.classList.add("js-class")
+                 MenuItem.classList.remove("close-class")
+                 MenuItemIcon.classList.add("menu-icon-tr")
+                 MenuItemIcon.classList.remove("menu-icon-in")
+
+
+   
+}
+
+function closeMobileMenu() {
+        const MenuItem = document.getElementById("mobile-list-cart")
+        const MenuItemIcon = document.getElementById("menu-bar")
+
+               
+           
+                 MenuItem.classList.remove("js-class")
+                 MenuItem.classList.add("close-class")
+                 MenuItemIcon.classList.add("menu-icon-in")
+                 MenuItemIcon.classList.remove("menu-icon-t")
+                 
+
+      
+}
 
