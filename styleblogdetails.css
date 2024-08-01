@@ -80,6 +80,22 @@
     background-position: center;
     background-size: cover;
 }
+.BD{
+  background-image: url("assets/backnd.jpg");
+
+}
+.BD2{
+  background-image: url("assets/frontend.webp");
+
+}
+.BD3{
+  background-image: url("assets/basics.jpg");
+
+}
+.BD4{
+  background-image: url("assets/responsive.jpeg");
+
+}
 .b-detail-img {
     position: relative;
   }

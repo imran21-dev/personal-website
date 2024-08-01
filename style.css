@@ -92,7 +92,6 @@ body{
 
 .navbar{
     position: sticky;
-   
     top: 0;
     left: 0;
     display: flex;
@@ -100,10 +99,13 @@ body{
     justify-content: center;
     padding: 0px 10px;
     padding-bottom: 0;
-    gap: 4%;
+    gap: 0%;
     background: rgba(0, 0, 0, 0);
     backdrop-filter: blur(5px);
     z-index: 999;
+}
+#navbar{
+    gap: 2%;
 }
 .nav-items ul{
     display: flex;
@@ -2117,6 +2119,7 @@ input::-webkit-inner-spin-button {
     top: 90%;
     left: 40px;
     opacity: 15%;
+    z-index: 1000;
 }
 .upper-arrow:hover{
     opacity: 100%;
@@ -2198,4 +2201,50 @@ input::-webkit-inner-spin-button {
 .map-bug{
     color: transparent;
    
+}
+
+
+
+.prjectsIndexBtn:hover{
+    background: linear-gradient(to right bottom, var(--font-color), var(--primary-color2));
+    color: var(--background-color);
+    font-weight: 500;
+   
+}
+.YM-switch a:last-child:hover {
+    background: linear-gradient(to right bottom, var(--font-color), var(--primary-color2));
+    color: var(--background-color);
+    font-weight: 500;
+}
+
+.seeMoreForeAll{
+    font-size: 13px;
+    color: var(--font-color2);
+    border-radius: 50px;
+    padding: 10px 30px;
+    background: linear-gradient(to right bottom, var(--font-color), var(--primary-color2));
+    color: var(--background-color);
+    font-weight: 600;
+    position: relative;
+    z-index: 999;
+
+
+}
+.seeMoreForeAll:hover{
+    background: linear-gradient(to right bottom, var(--font-color), var(--primary-color));
+    font-weight: 600;
+    padding: 10px 40px;
+}
+.AllBlBtn{
+    margin-top: -20px;
+}
+.SKIILBTN{
+    margin-top: 20px;
+    padding: 12px 30px;
+    font-size: 15px;
+
+}
+.SKIILBTN:hover{
+    padding: 12px 40px;
+
 }

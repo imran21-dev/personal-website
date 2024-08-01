@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+:root{
+    --background-color: #0c0c0d;
+    --black-2:#141415;
+    --primary-color:#9914c1;
+    --primary-color2:#5825c1;
+    --font-color: #f5f5ff;
+    --font-color2: #e58fff;
+    --font-color3: #847dd3;
+    --font-color4: #ded0eb;
+    --font-color5: #ded0eb89;
+
+    --primary-font: Sora;
+
+}
+
+.testimonials{
+    position: relative;
+    z-index: 999;
+}
+
+.testi-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 25%;
+}
+.testi-info{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.testi-border {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    border: 7px solid var(--font-color2);
+    border-bottom-color: transparent;
+    transform: rotate(-80deg);
+}
+.testi-user-name {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--font-color);
+    padding-top: 5px;
+    padding-bottom: 1px;
+}
+.testi-comment {
+    font-size: 15px;
+    color: var(--font-color4);
+    font-weight: 400;
+    line-height: 22px;
+}
+#header{
+    height: 300px;
+    width: 100%;
+    margin-top: -15px;
+    position: relative;
+    background-image: url(assets/bg-header-01.png), linear-gradient(to bottom, #0000001d, #0000008e, #0c0c0d);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 999;
+    background-blend-mode: overlay;
+  
+}

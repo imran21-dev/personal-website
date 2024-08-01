@@ -678,3 +678,9 @@
 #custompackage-li, #custompackage-li2{
     font-size: 15px;
 }
+
+#yearly:hover{
+    background: linear-gradient(to right bottom, var(--font-color), var(--primary-color2));
+    color: var(--background-color);
+    font-weight: 500;
+}

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+:root{
+    --background-color: #0c0c0d;
+    --black-2:#141415;
+    --primary-color:#9914c1;
+    --primary-color2:#5825c1;
+    --font-color: #f5f5ff;
+    --font-color2: #e58fff;
+    --font-color3: #847dd3;
+    --font-color4: #ded0eb;
+    --font-color5: #ded0eb89;
+
+    --primary-font: Sora;
+
+}
+#header{
+    height: 500px;
+}
+.plan-head h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right bottom, var(--font-color2), var(--font-color));
+}
+.plan-head p{
+    font-size: 15px;
+    text-align: center;
+    width: 55%;
+}
+.services-cart{
+    padding: 0 18%;
+    display: grid;
+    row-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.service-cartt{
+    display: flex;
+   position: relative;
+   z-index: 999;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--font-color4);
+    width: calc(100% - 30px);
+    background: var(--black-2);
+    padding: 50px 60px;
+    border-radius: 15px;
+    background: linear-gradient(to right bottom, var(--font-color), var(--primary-color2));
+    color: var(--background-color);
+    
+   
+}
+.catt2{
+    background: linear-gradient(to left bottom, var(--font-color), var(--primary-color2));
+
+}
+.service-cartt h1{
+    font-size: 25px;
+    color: var(--background-color);
+   
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.service-cartt h1 span{
+    font-size: 20px;
+    color: var(--background-color);
+}
+.service-cartt p{
+    font-size: 15px;
+    color: var(--black-2);
+    width: 100%;
+    padding-left: 50px;
+    
+}
+.jjjj{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 5px;
+}
+.up-right-icon{
+    font-size: 35px;
+    cursor: pointer;
+    color: var(--background-color);
+    transform: rotate(45deg);
+}
+.service-cartt:hover .up-right-icon{
+    transform: rotate(0deg);
+
+}
+
+.service-cartt:hover{
+    background: linear-gradient(to right bottom, var(--font-color2), var(--primary-color2));
+
+    transform: translateY(-5px);
+
+
+}
+.up-right-icon:hover{
+    transform: rotate(0deg);
+}
+.for-services-contact{
+    padding: 0px 18%;
+}
+.specialized{
+    position: relative;
+    z-index: 999;
+}

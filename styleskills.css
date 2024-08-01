@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+:root{
+    --background-color: #0c0c0d;
+    --black-2:#141415;
+    --primary-color:#9914c1;
+    --primary-color2:#5825c1;
+    --font-color: #f5f5ff;
+    --font-color2: #e58fff;
+    --font-color3: #847dd3;
+    --font-color4: #ded0eb;
+    --font-color5: #ded0eb89;
+
+    --primary-font: Sora;
+
+}
+#SkillCon{
+    position: relative;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+}
+.skill-cart-con{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.skill-cart{
+     width: 30%;
+     background: linear-gradient(to right bottom, var(--primary-color), var(--primary-color2));
+
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     border-radius: 20px;
+     padding: 50px;
+     gap: 0px;
+}
+.skill-icon-con{
+    width: 100%;
+    height: 200px;
+    background: url("assets/html.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+.css{
+    width: 100%;
+    height: 200px;
+    background: url("assets/css-3.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.tailwind{
+    width: 100%;
+    height: 200px;
+    background: url("assets/tailwind.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.java{
+    width: 100%;
+    height: 200px;
+    background: url("assets/js.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.mongo{
+    width: 100%;
+    height: 200px;
+    background: url("assets/mongodb.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sql{
+    width: 100%;
+    height: 200px;
+    background: url("assets/mysql.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.skill-cart h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+.line2{
+    padding: 0px 15%;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.line2 .skill-cart{
+    width: calc(30% + 15%);
+}
+.line3{
+    padding: 0px 15%;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line3 .skill-cart{
+    width: calc(30% + 15%);
+}
+.background-glow {
+    width: 60%;
+    height: 200%;
+    position: absolute;
+    top: 50%;
+    z-index: 50;
+    background-color: #9914c141;
+    border-radius: 50%;
+    filter: blur(200px);
+    margin: 0 auto;
+}
+.Professional-In h1 {
+    font-size: 45px;
+    background-image: linear-gradient(to right bottom, var(--font-color2), var(--font-color));
+    color: transparent;
+    background-clip: text;
+    font-weight: 700;
+    margin-top: 15px;
+}

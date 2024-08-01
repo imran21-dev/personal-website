@@ -488,6 +488,27 @@ function checkBlog3() {
             PopTitle.innerText = CurrentTitle
                    
 }
+function checkBlog4() {
+      const PopBlog = document.getElementById("PopBlog")
+            const PopImg = window.getComputedStyle(PopBlog)
+            const PopImgValue = PopImg.backgroundImage
+
+      const BlogCart = document.getElementById("BlogCart4")
+            const BlogCartChild = BlogCart.children[0].src
+            const BlogCartImg = "url('" + BlogCartChild + "')"
+
+
+      const PopTitle = document.getElementById("PopTitle")
+           const PopTitleValue = PopTitle.innerText
+
+
+          const CurrentTitle = BlogCart.children[1].innerText
+
+
+            PopBlog.style.backgroundImage = BlogCartImg
+            PopTitle.innerText = CurrentTitle
+                   
+}
 
 
 
