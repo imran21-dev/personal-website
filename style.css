@@ -3004,7 +3004,7 @@ box-shadow: 0 8px 32px 0 rgba(73, 10, 128, 0.37);
     font-size: 14px;
     color: var(--font-color2);
     font-weight: 500;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 5px;
 }
 .map-con::before {
@@ -3108,18 +3108,20 @@ form {
 }
 .footer{
     padding: 0 5%;
-    overflow: hidden;
+
 }
 .footer-sec{
  
    display: grid;
    grid-template-columns: repeat(2, 1fr);
    align-items: start;
-   justify-content: space-between;
-   padding: 0;
+   justify-content:space-between;
+   padding: 0px;
    width: 100%;
-   gap: 10px;
+   gap: 0px;
    position: relative;
+  
+
 }
 .footer-logo {
     width: 60px;
@@ -3133,11 +3135,11 @@ form {
     gap: 20px;
     width: 100%;
     padding: 0;
-    
+
 }
 .footer-left-p {
-    line-height: 15px;
-    font-size: 10px;
+    line-height: 10px;
+    font-size: 8px;
     width: 100%;
     margin-top: -20px;
 }
@@ -3161,14 +3163,17 @@ form {
     flex-direction: column;
     gap: 10px;
     align-items: start;
-    width: 100%;
+    width: max-content;
+   position: absolute;
+   right: 0;
+   top: 0;
    
   
 }
 .footer-nav-ul-con {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: start;
     gap: 20px;
     margin-top: 10px;
     width: 100%;
@@ -3182,19 +3187,19 @@ form {
 .mobile-contact-ul {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    margin-top: 0px;
+    gap: 5px;
+    margin-top: -5px;
 
     width: 100%;
 }
 .mobile-contact-ul li a{
-    font-size: 10px;
+    font-size: 9px;
 }
 .mobile-contact-ul li i{
     font-size: 13px;
 }
 .mobile-contact-ul li{
-    gap: 5px;
+    gap: 2px;
 }
 .footer-right {
     display: flex;
@@ -3211,13 +3216,14 @@ form {
     font-weight: 500;
 }
 .foot-email-box {
-    width: 100%;
+    width: 90%;
     height: 40px;
     background: var(--font-color4);
     border-radius: 10px;
     display: flex;
     align-items: center;
     margin-top: 5px;
+  
 }
 #foot-email {
     border: none;
@@ -3231,7 +3237,7 @@ form {
 }
 .foot-right-ul {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     gap: 10px;
     margin-top: 10px;
