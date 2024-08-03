@@ -2431,18 +2431,18 @@ box-shadow: 0 8px 32px 0 rgba(73, 10, 128, 0.37);
 .mobile-nav-name{
     display: flex;
     padding: 0px 5%;
- 
-    
-    
 }
+
 #Mobile-header-title{
    font-family: Agbalumo;
     font-size: 30px;
+    color: transparent;
     background: linear-gradient( to right, var(--font-color2), var(--font-color));
     -webkit-background-clip: text;
             background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .nav-items li a {
     font-size: 12px;
     padding: 10px 15px;

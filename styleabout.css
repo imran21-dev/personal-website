@@ -584,3 +584,446 @@
         transform: translateX(0px);
     }
 }
+.about-test-seemore{
+    margin-top: -10px;
+}
+
+
+/* mobile devices */
+
+@media screen and (max-width: 576px){
+ 
+    .header {
+        width: 100%;
+        margin-top: 0px;
+        position: relative;
+        background-image: url(assets/bg-header-01.png), linear-gradient(to bottom, #00000057, #00000060, #0c0c0d);
+        background-size: cover;
+        background-position-x: 100%;
+        background-repeat: no-repeat;
+        z-index: 999;
+        background-blend-mode: overlay;
+    }
+    .banner {
+        position: relative;
+        z-index: 99;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .banner-left {
+        width: 100%;
+        margin-top: 15px;
+        position: relative;
+        order: 1;
+    }
+    .banner-left ul li {
+        font-size: 11px;
+        color: var(--font-color4);
+        list-style-type: disc;
+        line-height: 17px;
+    }
+    #oko {
+        width: 100%;
+        line-height: 15px;
+    }
+    .banner-rightA {
+        width: 100%;
+        margin-top: 15px;
+        order: 0;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .mainA {
+        padding: 0 5%;
+    }
+    .skill-container {
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        z-index: 100;
+        gap: 30px;
+    }
+    .carts {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .progress-con {
+        width: 100%;
+        height: 8px;
+        border-radius: 100px;
+        overflow: hidden;
+        background-color: var(--font-color);
+    }
+    .skills-cart h3 {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: -5px;
+    }
+    .company {
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .all-companies {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .company-info {
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: space-around;
+    }
+    .company-names {
+        width: 60%;
+    }
+    .company-names h2 {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .company-joining-date {
+        color: var(--font-color2);
+        font-size: 11px;
+        font-weight: 500;
+        border: 1px solid var(--font-color2);
+        padding: 7px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50px;
+    }
+    .current {
+        background-color: var(--font-color2);
+        color: var(--background-color);
+    }
+
+
+
+.skills-cart {
+    background: #020103de;
+    background-image: url(assets/cart-color.png);
+    background-size: cover;
+    background-blend-mode: saturation;
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 25px;
+    border-radius: 5px;
+}
+.skills-cart {
+    width: 100%;
+    background: linear-gradient(to right bottom, var(--black-2), var(--primary-color2));
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    border-radius: 50px;
+}
+
+.background-glow {
+    width: 60%;
+    height: 380%;
+    position: absolute;
+    top: 50%;
+    z-index: 0;
+    background-color: #9914c141;
+    border-radius: 50%;
+    filter: blur(200px);
+    margin: 0 auto;
+}
+.Professional-In h1 {
+    font-size: 20px;
+    background-image: linear-gradient(to right bottom, var(--font-color2), var(--font-color));
+    color: transparent;
+    background-clip: text;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.Professional-In p {
+    font-size: 10px;
+    color: var(--font-color4);
+    line-height: 15px;
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+    z-index: 100;
+}
+#SkillCon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: justify;
+    gap: 0px;
+}
+
+.skills-icons {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    border-radius: 50px;
+    background: linear-gradient(to right bottom, var(--primary-color), var(--black-2));
+    margin-top: 20px;
+    position: relative;
+    z-index: 100;
+    row-gap: 20px;
+   
+}
+
+.about-skill-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: var(--font-color5);
+    border: 1px solid var(--font-color2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+.about-testi {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    z-index: 100;
+}
+.about-testi h1 {
+    width: 100%;
+    text-align: center;
+}
+.about-test-seemore {
+    margin-top: -10px;
+    padding: 10px 20px;
+}
+.career-goal {
+    position: relative;
+    z-index: 100;
+    margin-top: 30px;
+}
+.career-title {
+    font-size: 20px;
+    background-image: linear-gradient(to right bottom, var(--font-color2), var(--font-color));
+    color: transparent;
+    background-clip: text;
+    font-weight: 600;
+    margin-top: 15px;
+   
+}
+.career-goals-container h2 {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--primary-color);
+    margin-bottom: 5px;
+}
+.career-goals-container li {
+    font-size: 9px;
+    width: 100%;
+    color: var(--font-color4);
+
+}
+.career-goals-container {
+    display: grid;
+    width: 100%;
+    justify-content: start;
+    align-items: start;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 15px;
+    margin-top: 20px;
+}
+.hobby {
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+}
+.hobby h1 {
+    font-size: 20px;
+    background-image: linear-gradient(to right bottom, var(--font-color2), var(--font-color));
+    color: transparent;
+    background-clip: text;
+    font-weight: 600;
+}
+.hobbies {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hobby-cart h3 {
+    font-size: 11px;
+    color: var(--font-color4);
+    font-weight: 500;
+}
+.hobby-cart a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #c023f010;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ded0eb48;
+}
+.hobby-cart a i {
+    font-size: 15px;
+    color: var(--primary-color);
+}
+.personal-showcase {
+    border: 1px solid var(--font-color2);
+    border-radius: 30px;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    z-index: 100;
+    margin-top: 20px;
+}
+
+.personal-showcase h1 {
+    font-size: 20px;
+    color: var(--font-color2);
+    background-clip: text;
+    font-weight: 500;
+}
+.personal-showcase p {
+    font-size: 10px;
+    font-weight: 400;
+    color: var(--font-color4);
+    text-align: center;
+    width: 100%;
+    line-height: 15px;
+}
+.shocase-btn a {
+    color: var(--font-color2);
+    border: 1px solid var(--font-color2);
+    border-radius: 50px;
+    padding: 7px 20px;
+    font-size: 9px;
+}
+
+.contact-cart {
+    background: var(--black-2);
+    padding: 30px 30px;
+    border-radius: 25px;
+    position: relative;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: 30px 0px;
+    text-align: center;
+    gap: 20px;
+
+}
+.contact-title h1 {
+    font-size: 20px;
+    background-image: linear-gradient(to right bottom, var(--font-color2), var(--font-color));
+    color: transparent;
+    background-clip: text;
+    font-weight: 500;
+}
+.contact-title p {
+    font-size: 10px;
+    font-weight: 400;
+    width: 60%;
+    text-align: center;
+    
+    margin: 0 auto;
+    margin-top: 10px;
+
+    color: var(--font-color4);
+}
+.contact-me-btn {
+    border-radius: 50px;
+    background: linear-gradient(to right bottom, var(--font-color), var(--primary-color2));
+    color: var(--background-color);
+    position: relative;
+    font-weight: 500;
+    padding: 8px 20px;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    z-index: 999;
+}
+.right-icon {
+    color: var(--background-color);
+    font-weight: 600;
+   font-size: 12px;
+   margin-top: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact-cart::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 25px;
+    padding: 1px;
+    z-index: 2;
+    background: linear-gradient(45deg, var(--font-color2), var(--primary-color));
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
