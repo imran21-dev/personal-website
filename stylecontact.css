@@ -171,7 +171,7 @@
         position: relative;
     }
     .contact-user-names h1 {
-        font-size: 20px;
+        font-size: 25px;
         background-image: linear-gradient(to right bottom, var(--font-color2), var(--font-color));
         color: var(--font-color);
         background-clip: text;
@@ -179,17 +179,13 @@
         margin-top: 15px;
     }
     .contact-user-names p {
-        font-size: 12px;
+        font-size: 13px;
         font-weight: 500;
         margin-top: -5px;
         padding-bottom: 10px;
         color: var(--font-color4);
     }
-    .contact-ul li a {
-        font-size: 10px;
-        color: var(--font-color4);
-        font-weight: 400;
-    }
+   
     #backdrop-filterid{
         width: 60%;
         height: 150%;
