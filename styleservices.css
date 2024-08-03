@@ -112,3 +112,185 @@
     position: relative;
     z-index: 999;
 }
+
+
+@media screen and (max-width: 576px) {
+
+    .plan-head {
+        padding: 0px 5%;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .plan-head h1 {
+        font-size: 25px;
+        font-weight: 700;
+        color: transparent;
+        background-clip: text;
+        background-image: linear-gradient(to right bottom, var(--font-color2), var(--font-color));
+    }
+    .plan-head p {
+        font-size: 8px;
+        text-align: center;
+        width: 80%;
+        line-height: 12px;
+    }
+    #header {
+        height: max-content;
+    }
+    #navbar {
+        gap: 0%;
+    }
+    .navbar {
+        position: sticky;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 0px;
+        padding-bottom: 5px;
+        gap: 0%;
+        background: rgba(0, 0, 0, 0);
+        backdrop-filter: blur(5px);
+        z-index: 999;
+    }
+    .header {
+        width: 100%;
+        margin-top: 0px;
+        position: relative;
+        background-image: url(assets/bg-header-01.png), linear-gradient(to bottom, #00000057, #00000060, #0c0c0d);
+        background-size: cover;
+        background-position-x: 10%;
+        background-repeat: no-repeat;
+        z-index: 999;
+        background-blend-mode: overlay;
+    }
+    .gloww {
+        width: 80%;
+        height: 1200px;
+        background: #9914c141;
+        opacity: 60%;
+        filter: blur(100px);
+        border-radius: 80%;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        z-index: 0;
+        margin: 0 auto;
+    }
+    .services-cart {
+        padding: 0 5%;
+        display: grid;
+        row-gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: space-between;
+       margin-top: 30px;
+      
+    }
+    .service-cartt {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        z-index: 5;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 13px;
+        font-weight: 400;
+        color: var(--font-color4);
+        width: calc(100% - 10px);
+        background: var(--black-2);
+        padding: 20px;
+        border-radius: 15px;
+        background: linear-gradient(to right bottom, var(--font-color), var(--primary-color2));
+        color: var(--background-color);
+        gap: 10px;
+        margin: 0 auto;
+    }
+    .service-cartt h1 {
+        font-size: 12px;
+        width: 100%;
+        color: var(--background-color);
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .service-cartt p {
+        font-size: 9px;
+        color: var(--black-2);
+        width: 100%;
+        padding-left: 0px;
+        line-height: 11px;
+        text-align: center;
+    }
+    .service-cartt h1 span {
+        font-size: 13px;
+        color: var(--background-color);
+    }
+    .up-right-icon {
+        font-size: 20px;
+        cursor: pointer;
+        color: var(--background-color);
+        transform: rotate(45deg);
+    }
+    .jjjj {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 5px;
+    }
+
+    .specialized {
+        padding: 0px 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        position: relative;
+        z-index: 999;
+    }
+
+    .specialized h1 {
+        margin-top: 50px;
+        margin-bottom: 0px;
+        font-size: 20px;
+        font-weight: 600;
+        color: transparent;
+        background-clip: text;
+        background-image: linear-gradient(to right bottom, var(--font-color2), var(--font-color));
+    }
+    .specialized-ul li {
+        font-size: 10px;
+        font-weight: 400;
+        color: var(--font-color4);
+        width: 100%;
+        background: var(--black-2);
+        padding: 15px 30px;
+        border-radius: 15px;
+        cursor: pointer;
+        background: linear-gradient(to right bottom, var(--font-color), var(--primary-color2));
+        color: var(--background-color);
+    }
+  .mobile-specialized-section{
+
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .for-services-contact {
+    padding: 30px 5%;
+}
+.mobile-contact-sec{
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+  
+}
