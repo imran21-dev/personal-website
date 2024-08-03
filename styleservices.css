@@ -115,6 +115,7 @@
 
 
 @media screen and (max-width: 576px) {
+    
 
     .plan-head {
         padding: 0px 5%;
@@ -190,6 +191,7 @@
         justify-content: space-between;
        margin-top: 30px;
       
+      
     }
     .service-cartt {
         display: flex;
@@ -210,6 +212,7 @@
         gap: 10px;
         margin: 0 auto;
     }
+  
     .service-cartt h1 {
         font-size: 12px;
         width: 100%;
@@ -287,10 +290,41 @@
 .mobile-contact-sec{
     width: 100%;
     overflow: hidden;
+    margin-bottom: -30px;
+}
+#main {
+    padding: 0 5%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+
 }
 
+.gloww {
+    width: 80%;
+    height: 1200px;
+    background: #9914c141;
+    opacity: 60%;
+    filter: blur(100px);
+    border-radius: 80%;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    z-index: 0;
+    margin: 0 auto;
+}
 
-
-
+.header {
+    width: 100%;
+    margin-top: 0px;
+    position: relative;
+    background-image: url(assets/bg-header-01.png), linear-gradient(to bottom, #00000057, #00000060, #0c0c0d);
+    background-size: 200%;
+    background-position-x: 60%;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    z-index: 999;
+    background-blend-mode: overlay;
+}
   
 }
