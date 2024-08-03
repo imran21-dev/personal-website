@@ -190,19 +190,25 @@
         color: var(--font-color4);
         font-weight: 400;
     }
-    .backdrop-filter {
+    #backdrop-filterid{
         width: 60%;
         height: 150%;
         position: absolute;
         top: 100%;
         z-index: 0;
-        background-color: #9914c132;
+        background-color: #9914c141;
         border-radius: 50%;
         filter: blur(200px);
         margin: 0 auto;
-        display: none;
+        
+       
+
+        
     }
-  
+    #contact {
+        z-index: 100;
+        position: relative;
+    }
     .contact-left {
         display: flex;
         flex-direction: column;
@@ -214,15 +220,22 @@
         transform: scale(1.5);
         margin: 0 auto;
         margin-top: 30px;
+        
 
     }
+    #user-img-con {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(1);
+        filter: FlipL;
+        -ms-filter: "FlipH";
+    }
 
-
-
-
-
-
-
+    #header {
+        position: relative;
+        z-index: 1000;
+    }
 
 
 

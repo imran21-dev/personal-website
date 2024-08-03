@@ -2271,6 +2271,7 @@ box-shadow: 0 8px 32px 0 rgba(73, 10, 128, 0.37);
 .menu-icon{
    font-size: 20px;
     color: var(--font-color2);
+    margin-top: 10px;
 }
 #mobile-list-cart{
    display: flex;
