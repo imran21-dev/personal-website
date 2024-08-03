@@ -652,12 +652,14 @@
         position: relative;
         z-index: 100;
         gap: 30px;
+        overflow: hidden;
     }
     .carts {
         width: 100%;
         display: flex;
         flex-direction: column;
         gap: 20px;
+        overflow: hidden;
     }
     .progress-con {
         width: 100%;
@@ -684,6 +686,7 @@
         display: flex;
         flex-direction: column;
         gap: 10px;
+        overflow: hidden;
     }
     .company-info {
         width: 100%;
@@ -778,7 +781,11 @@
     text-align: justify;
     gap: 0px;
 }
+.mobile-skills-section{
 
+    width: 100%;
+    overflow: hidden;
+}
 .skills-icons {
     width: 100%;
     display: grid;
@@ -792,6 +799,8 @@
     position: relative;
     z-index: 100;
     row-gap: 20px;
+   
+ 
    
 }
 
@@ -986,19 +995,6 @@
    margin-top: 2px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .contact-cart::before {
     content: "";
     position: absolute;
@@ -1006,14 +1002,27 @@
     border-radius: 25px;
     padding: 1px;
     z-index: 2;
-    background: linear-gradient(45deg, var(--font-color2), var(--primary-color));
+    background: linear-gradient(45deg, var(--font-color2), var(--primary-color2));
     -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
     mask-composite: exclude;
-    display: none;
+
 }
 
+.mobile-contact-section{
+    width: 100%;
+    overflow: hidden;
+}
+.mobile-testi-section{
+    width: 100%;
+    overflow: hidden;
 
+}
+.mobile-career-goal{
+    width: 100%;
+    overflow: hidden;
+
+}
 
 
 
