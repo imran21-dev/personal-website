@@ -44,6 +44,7 @@
 }
 .mainProject{
     margin-top: 1580px;
+    padding: 0 18%;
 }
 .projects-container{
     display: grid;
@@ -144,7 +145,7 @@
         z-index: 999;
         background-blend-mode: overlay;
     }
-}
+
     #navbar {
         gap: 0%;
     }
@@ -227,7 +228,7 @@
 }
 
 
-
+}
 
 
 

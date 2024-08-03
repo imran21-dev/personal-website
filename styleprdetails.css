@@ -190,7 +190,210 @@
     
 }
 
+@media screen and (max-width: 576px) {
+    .header {
+        width: 100%;
+        margin-top: 0px;
+        position: relative;
+        background-image: url(assets/bg-header-01.png), linear-gradient(to bottom, #00000057, #00000060, #0c0c0d);
+        background-size: 200%;
+        background-position-x: 60%;
+        background-position-y: 0px;
+        background-repeat: no-repeat;
+        z-index: 999;
+        background-blend-mode: overlay;
+    }
 
+    #navbar {
+        gap: 0%;
+    }
+    .navbar {
+        position: sticky;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 0px;
+        padding-bottom: 5px;
+        gap: 0%;
+        background: rgba(0, 0, 0, 0);
+        backdrop-filter: blur(5px);
+        z-index: 999;
+    }
+
+   .projects-switch a {
+    height: 100%;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
+    font-weight: 400;
+    padding: 0 15px;
+}
+.projects-switch {
+    background-color: var(--black-2);
+    height: 35px;
+    width: 100%;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0px;
+    margin-top: 10px;
+}
+.projects-container {
+    display: flex;
+   flex-direction: column;
+    row-gap: 20px;
+    height: max-content;
+}
+.footer-sec {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: start;
+    justify-content: space-between;
+    padding: 0px;
+    width: 100%;
+    gap: 0px;
+    position: relative;
+
+
+}
+#main{
+    padding: 0 5%;
+    overflow: hidden;
+    position: relative;
+    z-index: 20;
+}
+.header {
+    height: max-content;
+}
+.mainProject {
+    margin-top: 50px;
+}
+.projects {
+    margin-top: 50px;
+    position: relative;
+    z-index: 909;
+    width: 100%;
+    overflow: hidden;
+   
+}
+.footer {
+    z-index: 9;
+}
+
+.project-detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 0px 5%;
+    margin-top: 60px;
+}
+.project-detail-container h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right bottom, var(--font-color2), var(--font-color));
+    margin-bottom: 10px;
+    
+}
+.project-cart-title h2 {
+    font-size: 12px;
+    font-weight: 400;
+    width: 85%;
+    line-height: 15px;
+    color: var(--font-color);
+  
+}
+.pro-detail-info p {
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 12px;
+}
+.p-cart-rate {
+    font-size: 8px;
+    font-weight: 500;
+}
+.p-cart-name {
+    font-size: 7px;
+    color: var(--font-color2);
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.project-details-cart {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+    border: 1px solid var(--font-color2);
+    border-radius: 30px;
+    background-color: #0c0c0d1e;
+    margin-top: -20px;
+}
+
+.project-detail-img {
+    width: 100%;
+    height: 250px;
+}
+.pro-detail-info {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.p-cart-rate i {
+    color: rgb(255, 174, 0);
+    font-size: 8px;
+    padding-right: 5px;
+}
+.project-detail-buttons a {
+    font-size: 10px;
+    color: var(--font-color2);
+    border: 1px solid var(--font-color2);
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+.projects-switch {
+    background-color: var(--black-2);
+    height: 35px;
+    width: 100%;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0px;
+    margin-top: 10px;
+}
+
+.projects-switch a {
+    height: 100%;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
+    font-weight: 400;
+    padding: 0 10px;
+}
+.projects-contact-container {
+    padding: 0px 5%;
+}
+
+
+
+}
 
 
 
