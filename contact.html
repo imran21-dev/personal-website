@@ -13,28 +13,56 @@
 </head>
 <body>
     <header id="header" class="header">
-        <nav id="navbar" class="navbar">
-           <div class="header-logo">
-             <a href="index.html"><img src="assets/logo-01.png" alt=""></a>
-           </div>
-           <div class="nav-items">
-             <ul>
-                 <li><a class="border-gradientnav only-topnav border-gradient-greennav" href="index.html">Home</a></li>
-                 <li><a class="border-gradientnav only-topnav border-gradient-greennav" href="aboutme.html">About Me</a></li>
-                 <li><a class="border-gradientnav only-topnav border-gradient-greennav" href="services.html">Services</a></li>
-                 <li><a class="border-gradientnav only-topnav border-gradient-greennav" href="projects.html">Projects</a></li>
-                 <li><a class="border-gradientnav only-topnav border-gradient-greennav" href="pricing.html">Pricing</a></li>
-                 <li><a class="border-gradientnav only-topnav border-gradient-greennav" href="skills.html">Skills</a></li>
+      <nav id="navbar" class="navbar">
+        <div class="header-logo">
+          <a href="index.html"><img src="assets/logo-01.png" alt=""></a>
+        </div>
+        <div onclick="window.location.href='index.html'" class="mobile-nav-name">
+         <h6 id="Mobile-header-title">M. Imran</h6>
+       </div>
+        <div class="nav-items">
+          <ul id="navlist-web">
+              <li><a class="border-gradientnav only-topnav border-gradient-greennav" href="index.html">Home</a></li>
+              <li><a class="border-gradientnav only-topnav border-gradient-greennav" href="aboutme.html">About Me</a></li>
+              <li><a class="border-gradientnav only-topnav border-gradient-greennav" href="services.html">Services</a></li>
+              <li><a class="border-gradientnav only-topnav border-gradient-greennav" href="projects.html" >Projects</a></li>
+              <li><a class="border-gradientnav only-topnav border-gradient-greennav" href="pricing.html">Pricing</a></li>
+              <li><a class="border-gradientnav only-topnav border-gradient-greennav" href="skills.html">Skills</a></li>
 
-                 <li><a class="border-gradientnav only-topnav border-gradient-greennav" href="blog.html">Blogs</a></li>
-                 <li><a class="border-gradientnav only-topnav border-gradient-greennav" href="testimonials.html">Testimonials</a></li>
-                 <li><a class="border-gradientnav only-topnav border-gradient-greennav"  id="li-home"  href="#header">Contact</a></li>
-             </ul>
-           </div>
-           <div class="hire-btn">
-             <button onclick = "window.location.href='#contact'">Hire Me!</button>
-           </div>
-        </nav>  
+              <li><a class="border-gradientnav only-topnav border-gradient-greennav" href="blog.html">Blogs</a></li>
+              <li><a class="border-gradientnav only-topnav border-gradient-greennav" href="testimonials.html">Testimonials</a></li>
+              <li><a class="border-gradientnav only-topnav border-gradient-greennav"   href="#contact-form"  id="li-home">Contact</a></li>
+          </ul>
+                             <!-- this list is for mobile devices -->
+         <section class="mobile-nav-bg">
+           <div id="mobile-list-cart">
+             <ul>
+               <li class="li-home border-gradientnav only-topnav border-gradient-greennav"><a href="index.html">Home</a></li>
+               <li><a class="border-gradientnav only-topnav border-gradient-greennav mobile-navItem" href="aboutme.html">About Me</a></li>
+               <li><a class="border-gradientnav only-topnav border-gradient-greennav mobile-navItem" href="services.html" >Services</a></li>
+               <li><a class="border-gradientnav only-topnav border-gradient-greennav mobile-navItem" href="projects.html">Projects</a></li>
+               <li><a class="border-gradientnav only-topnav border-gradient-greennav mobile-navItem" href="pricing.html">Pricing</a></li>
+               <li><a class="border-gradientnav only-topnav border-gradient-greennav mobile-navItem" href="skills.html">Skills</a></li>
+
+               <li><a class="border-gradientnav only-topnav border-gradient-greennav mobile-navItem" href="blog.html">Blogs</a></li>
+               <li><a class="border-gradientnav only-topnav border-gradient-greennav mobile-navItem" href="testimonials.html">Testimonials</a></li>
+               <li><a class="border-gradientnav only-topnav border-gradient-greennav mobile-navItem" href="#contact-form" id="li-home">Contact</a></li>
+               <li onclick="closeMobileMenu()">   <div id="menu-barTwo">
+                 <i class="fa-duotone fa-solid fa-xmark menu-icon"></i>
+              </div></li>
+           </ul>
+            </div>
+         </section>
+        </div>
+        <div class="hire-btn">
+          <button onclick = "window.location.href='contact.html'">Hire Me!</button>
+        </div>
+        <section class="menu-bar-con">
+         <div onclick="checkMobileMenu()" id="menu-bar">
+           <i class="fa-duotone fa-bars-staggered fa-fw menu-icon"></i>
+       </div>
+       </section>
+     </nav>   
         <div class="contact-title-display">
             <h1 data-aos="zoom-in">Contact Me</h1>
      <div class="backdrop-filter"></div>
@@ -58,7 +86,7 @@
             <div class="contact-left">
                       <div class="contact-foot-user">
  
-                          <section data-aos="fade-right" id="">
+                          <section data-aos="fade-right" id="contact-user-img">
                             <div class="border-gradient border-gradient-green only-top user-img-frame">
                                 <div class="border-gradient2 border-gradient-green2 only-top2 user-img-frame frame2">
                                    <div class="image-bg">
@@ -96,7 +124,7 @@
                       <iframe class="map" width="400" height="220" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=400&height=220&hl=en&q=Sadullahpur,%20Dublia,Ataikula,Pabna%20Dhaka+()&t=k&z=12&ie=UTF8&iwloc=B&output=embed"></iframe> <a class="map-bug" href='https://www.acadoo.de/'>akademisches Ghostwriting</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=4120518d588df7ca31d4ef311c164952e29667ab'></script>
                     </div>  
             </div>
-            <div data-aos="fade-left" class="contact-right">
+            <div id="contact-form" data-aos="fade-left" class="contact-right">
                      <h1 class="form-title">Reach me</h1>
                      <form action="https://api.web3forms.com/submit" method="post">
                       <input type="hidden" name="access_key" value="a4282212-2c5d-4fd6-92bb-52a6a6c5358e">
@@ -143,79 +171,79 @@
      <footer data-aos="fade-up" class="footer" id="footer">
 
 
-        <section class="footer-sec">
-            <div class="footer-left">
-              <a class="footer-logo" href="index.html">
-                <img src="assets/logo-01.png" alt="">
-              </a>
-              <p class="footer-left-p contact-p">
-                My mission is to simplify complex user experiences with ethical design, fostering meaningful connections for billions, while offering top-tier services in full stack development, app development, responsive design, and more.
-              </p>
-              <ul class="contact-ul">
-                <li>
-                  <i class="fa-thin fa-location-dot"></i>
-                 <a target="_blank" href="https://maps.app.goo.gl/uyPo15RKvJLjghpx5"> Sujanagar, Pabna, Bangladesh</a>
-                </li>
-                <li>
-                  <i class="fa-thin fa-envelope"></i>
-                  <a href="#contact">mdimranparves35@gmail.com</a>
-                </li>
-                <li>
-                  <i class="fa-thin fa-phone"></i>
-                  <a href="#contact">01301460344</a>
-                </li>
-              </ul>
+      <section class="footer-sec">
+          <div class="footer-left">
+            <a class="footer-logo" href="index.html">
+              <img src="assets/logo-01.png" alt="">
+            </a>
+            <p class="footer-left-p contact-p">
+              My mission is to simplify complex user experiences with ethical design, fostering meaningful connections for billions, while offering top-tier services in full stack development, app development, responsive design, and more.
+            </p>
+            <ul class="contact-ul mobile-contact-ul">
+              <li>
+                <i class="fa-thin fa-location-dot"></i>
+               <a target="_blank" href="https://maps.app.goo.gl/uyPo15RKvJLjghpx5"> Sujanagar, Pabna, Bangladesh</a>
+              </li>
+              <li>
+                <i class="fa-thin fa-envelope"></i>
+                <a href="#contact">mdimranparves35@gmail.com</a>
+              </li>
+              <li>
+                <i class="fa-thin fa-phone"></i>
+                <a href="#contact">01301460344</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-middle">
+              <h2 class="footer-nav-title">Navigation</h2>
+               <div class="footer-nav-ul-con">
+                <ul class="foot-nav-left">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="aboutme.html">About Me</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="projects.html">Projects</a></li>
+                  <li><a href="pricing.html">Pricing</a></li>
+                </ul>
+                <ul class="foot-nav-left">
+                  <li><a href="blog.html">Blogs</a></li>
+                  <li><a href="testimonials.html">Testimonials</a></li>
+                  <li><a href="skills.html">Skills</a></li>
+                  <li><a href="aboutme.html">Experiences</a></li>
+                  <li><a href="#contact-form">Contact</a></li>
+                </ul>
+               </div>
+          </div>
+          <div class="footer-right">
+               <h1 class="footer-right-title">
+                Get the latest information
+               </h1>
+               <form action="">
+                  <div class="foot-email-box">
+                    <input id="foot-email" type="email" required placeholder="Email Address">
+                    <a class="foot-send" href="#"><i class="fa-solid fa-paper-plane-top"></i></a>
+                  </div>
+               </form>
+               <ul class="foot-right-ul">
+                <li><a class="footer-social-icon" href="https://www.facebook.com/mdimran.parves.9" target="_blank"><i class="fa-brands fa-facebook-f footer-social-icon-main"></i></a></li>
+
+                <li><a class="footer-social-icon" href="https://www.youtube.com/@itz_riam" target="_blank"><i class="fa-brands fa-youtube footer-social-icon-main"></i></a></li>
+
+                <li><a class="footer-social-icon" href="https://wa.me/+8801301460344" target="_blank"><i class="fa-brands fa-whatsapp footer-social-icon-main"></i></a></li>
+
+                <li><a class="footer-social-icon" href="https://www.instagram.com/mimranparves/" target="_blank"><i class="fa-brands fa-instagram footer-social-icon-main"></i></a></li>
+
+                <li><a class="footer-social-icon" href="https://x.com/Mohamma85577121" target="_blank"><i class="fa-brands fa-x-twitter footer-social-icon-main"></i></a></li>
+               </ul>
+          </div>
+      </section>
+       <section class="footer-last-texts">
+            <div class="hgigi">
+              <h2>2024 Mohammad Imran. All Rights Reserved.</h2>
+              <h2>User Terms & Conditions | Privacy Policy</h2>
             </div>
-            <div class="footer-middle">
-                <h2 class="footer-nav-title">Navigation</h2>
-                 <div class="footer-nav-ul-con">
-                  <ul class="foot-nav-left">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="aboutme.html">About Me</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="pricing.html">Pricing</a></li>
-                  </ul>
-                  <ul class="foot-nav-left">
-                    <li><a href="blog.html">Blogs</a></li>
-                    <li><a href="testimonials.html">Testimonials</a></li>
-                    <li><a href="skills.html">Skills</a></li>
-                    <li><a href="aboutme.html">Experiences</a></li>
-                    <li><a href="#main">Contact</a></li>
-                  </ul>
-                 </div>
-            </div>
-            <div class="footer-right">
-                 <h1 class="footer-right-title">
-                  Get the latest information
-                 </h1>
-                 <form action="">
-                    <div class="foot-email-box">
-                      <input id="foot-email" type="email" required placeholder="Email Address">
-                      <a class="foot-send" href="#"><i class="fa-solid fa-paper-plane-top"></i></a>
-                    </div>
-                 </form>
-                 <ul class="foot-right-ul">
-                  <li><a class="footer-social-icon" href="https://www.facebook.com/mdimran.parves.9" target="_blank"><i class="fa-brands fa-facebook-f footer-social-icon-main"></i></a></li>
+       </section>
 
-                  <li><a class="footer-social-icon" href="https://www.youtube.com/@itz_riam" target="_blank"><i class="fa-brands fa-youtube footer-social-icon-main"></i></a></li>
-
-                  <li><a class="footer-social-icon" href="https://wa.me/+8801301460344" target="_blank"><i class="fa-brands fa-whatsapp footer-social-icon-main"></i></a></li>
-
-                  <li><a class="footer-social-icon" href="https://www.instagram.com/mimranparves/" target="_blank"><i class="fa-brands fa-instagram footer-social-icon-main"></i></a></li>
-
-                  <li><a class="footer-social-icon" href="https://x.com/Mohamma85577121" target="_blank"><i class="fa-brands fa-x-twitter footer-social-icon-main"></i></a></li>
-                 </ul>
-            </div>
-        </section>
-         <section class="footer-last-texts">
-              <div class="hgigi">
-                <h2>2024 Mohammad Imran. All Rights Reserved.</h2>
-                <h2>User Terms & Conditions | Privacy Policy</h2>
-              </div>
-         </section>
-
-    </footer>
+  </footer>
     <a href="#header" class="upper-arrow" title="Home"><i class="fa-solid fa-jet-fighter-up"></i></a>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

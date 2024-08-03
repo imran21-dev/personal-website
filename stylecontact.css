@@ -117,3 +117,123 @@
     gap: 20px;
     margin-top: 0px;
 }
+
+@media screen and (max-width: 576px){
+    .contact-title-display h1 {
+        font-size: 30px;
+        background-image: linear-gradient(to right bottom, var(--font-color2), var(--font-color));
+        color: transparent;
+        background-clip: text;
+        font-weight: 600;
+        margin-top: 15px;
+    }
+    .contact-title-display {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .video1 {
+        width: 100%;
+        height: 280px;
+        filter: hue-rotate(90deg);
+        mix-blend-mode: color-dodge;
+        position: absolute;
+        top: 0;
+    }
+    .contact-foot-user {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        gap: 30px;
+     
+    }
+    .contact-user-names {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        margin-top:20px;
+        position: relative;
+        z-index: 0;
+    }
+    .contact-ul {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-top: 0px;
+    }
+    #contact {
+        z-index: 99;
+        position: relative;
+    }
+    .contact-user-names h1 {
+        font-size: 20px;
+        background-image: linear-gradient(to right bottom, var(--font-color2), var(--font-color));
+        color: var(--font-color);
+        background-clip: text;
+        font-weight: 600;
+        margin-top: 15px;
+    }
+    .contact-user-names p {
+        font-size: 12px;
+        font-weight: 500;
+        margin-top: -5px;
+        padding-bottom: 10px;
+        color: var(--font-color4);
+    }
+    .contact-ul li a {
+        font-size: 10px;
+        color: var(--font-color4);
+        font-weight: 400;
+    }
+    .backdrop-filter {
+        width: 60%;
+        height: 150%;
+        position: absolute;
+        top: 100%;
+        z-index: 0;
+        background-color: #9914c132;
+        border-radius: 50%;
+        filter: blur(200px);
+        margin: 0 auto;
+        display: none;
+    }
+  
+    .contact-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+    #contact-user-img{
+        transform: scale(1.5);
+        margin: 0 auto;
+        margin-top: 30px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
