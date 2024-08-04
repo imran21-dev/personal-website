@@ -18,27 +18,57 @@
 </head>
 <body>
     <header id="header" class="header">
-        <nav id="navbar" class="navbar">
-           <div class="header-logo">
-             <a href="index.html"><img src="assets/logo-01.png" alt=""></a>
-           </div>
-           <div class="nav-items">
+      <nav id="navbar" class="navbar">
+        <div class="header-logo">
+          <a href="index.html"><img src="assets/logo-01.png" alt=""></a>
+        </div>
+        <div onclick="window.location.href='index.html'" class="mobile-nav-name">
+         <h6 id="Mobile-header-title">M. Imran</h6>
+       </div>
+        <div class="nav-items">
+          <ul id="navlist-web">
+              <li><a class="border-gradientnav only-topnav border-gradient-greennav" href="index.html">Home</a></li>
+              <li><a class="border-gradientnav only-topnav border-gradient-greennav" href="aboutme.html">About Me</a></li>
+              <li><a class="border-gradientnav only-topnav border-gradient-greennav" href="services.html">Services</a></li>
+              <li><a class="border-gradientnav only-topnav border-gradient-greennav" href="projects.html" >Projects</a></li>
+              <li><a class="border-gradientnav only-topnav border-gradient-greennav" href="pricing.html">Pricing</a></li>
+              <li><a class="border-gradientnav only-topnav border-gradient-greennav" href="skills.html">Skills</a></li>
+
+              <li><a class="border-gradientnav only-topnav border-gradient-greennav" href="blog.html" id="li-home">Blogs</a></li>
+              <li><a class="border-gradientnav only-topnav border-gradient-greennav" href="testimonials.html">Testimonials</a></li>
+              <li><a class="border-gradientnav only-topnav border-gradient-greennav"   href="contact.html">Contact</a></li>
+          </ul>
+                          <!-- this list is for mobile devices -->
+         <section class="mobile-nav-bg">
+           <div id="mobile-list-cart">
              <ul>
-                 <li><a class="border-gradientnav only-topnav border-gradient-greennav" href="index.html">Home</a></li>
-                 <li><a class="border-gradientnav only-topnav border-gradient-greennav" href="aboutme.html">About Me</a></li>
-                 <li><a class="border-gradientnav only-topnav border-gradient-greennav" href="services.html">Services</a></li>
-                 <li><a class="border-gradientnav only-topnav border-gradient-greennav" href="projects.html">Projects</a></li>
-                 <li><a class="border-gradientnav only-topnav border-gradient-greennav" href="pricing.html" >Pricing</a></li>
-                 <li><a class="border-gradientnav only-topnav border-gradient-greennav" href="skills.html">Skills</a></li>
-                 <li><a class="border-gradientnav only-topnav border-gradient-greennav" href="blog.html" id="li-home">Blogs</a></li>
-                 <li><a class="border-gradientnav only-topnav border-gradient-greennav" href="testimonials.html">Testimonials</a></li>
-                 <li><a class="border-gradientnav only-topnav border-gradient-greennav"   href="contact.html">Contact</a></li>
-             </ul>
-           </div>
-           <div class="hire-btn">
-             <button onclick = "window.location.href='contact.html'">Hire Me!</button>
-           </div>
-        </nav>  
+               <li class="li-home border-gradientnav only-topnav border-gradient-greennav"><a href="index.html">Home</a></li>
+               <li><a class="border-gradientnav only-topnav border-gradient-greennav mobile-navItem" href="aboutme.html">About Me</a></li>
+               <li><a class="border-gradientnav only-topnav border-gradient-greennav mobile-navItem" href="services.html" >Services</a></li>
+               <li><a class="border-gradientnav only-topnav border-gradient-greennav mobile-navItem" href="projects.html" >Projects</a></li>
+               <li><a class="border-gradientnav only-topnav border-gradient-greennav mobile-navItem" href="pricing.html">Pricing</a></li>
+               <li><a class="border-gradientnav only-topnav border-gradient-greennav mobile-navItem" href="skills.html">Skills</a></li>
+
+               <li><a class="border-gradientnav only-topnav border-gradient-greennav mobile-navItem" href="blog.html" id="li-home">Blogs</a></li>
+               <li><a class="border-gradientnav only-topnav border-gradient-greennav mobile-navItem" href="testimonials.html">Testimonials</a></li>
+               <li><a class="border-gradientnav only-topnav border-gradient-greennav mobile-navItem" href="contact.html">Contact</a></li>
+               <li onclick="closeMobileMenu()">   <div id="menu-barTwo">
+                 <i class="fa-light fa-arrow-right menu-icon"></i>
+
+              </div></li>
+           </ul>
+            </div>
+         </section>
+        </div>
+        <div class="hire-btn">
+          <button onclick = "window.location.href='contact.html'">Hire Me!</button>
+        </div>
+        <section class="menu-bar-con">
+         <div onclick="checkMobileMenu()" id="menu-bar">
+           <i class="fa-duotone fa-bars-staggered fa-fw menu-icon"></i>
+       </div>
+       </section>
+     </nav>   
              <section class="plan-head">
                    <h2 data-aos="fade-up">Welcome to</h2>
                    <h1 id="Blog-DT"  data-aos="zoom-in-up">My Blogs Details</h1>
@@ -91,7 +121,7 @@
                       <div class="comment-user-info">
                           <h2 class="comment-user-name">Abu Saleh Noor<span>2 months ago</span></h2>
                           <h3 class="comment-user-skill">Frontend Developer</h3>
-                          <p class="comment-value">This blog is really insightful! I never thought about the topic from this prespective. Thanks for sharing!</p>
+                          <p class="comment-value">This blog is really insightful! I never thought about the topic from this perspective. Thanks for sharing!</p>
                       </div>
                   </div>
                   <div data-aos="fade-up" class="comment-user-cart">
@@ -99,7 +129,7 @@
                       <div class="comment-user-info">
                           <h2 class="comment-user-name">Md. Humayon Kobir Joy <span>1 month ago</span></h2>
                           <h3 class="comment-user-skill">Backend Developer</h3>
-                          <p class="comment-value">This blog is really insightful! I never thought about the topic from this prespective. Thanks for sharing!</p>
+                          <p class="comment-value">Wow, this blog opened my eyes to a whole new perspective! Thanks for sharing such insightful content</p>
                       </div>
                   </div>
                   <div data-aos="fade-up" class="comment-user-cart">
@@ -107,7 +137,7 @@
                       <div class="comment-user-info">
                           <h2 class="comment-user-name">Md. Rabby Biswas  <span>5 months ago</span></h2>
                           <h3 class="comment-user-skill">Frontend Developer</h3>
-                          <p class="comment-value">This blog is really insightful! I never thought about the topic from this prespective. Thanks for sharing!</p>
+                          <p class="comment-value">I never considered the topic this way before. Your blog is truly enlightening—thanks for sharing!</p>
                       </div>
                   </div>
                   <div data-aos="fade-up" class="comment-user-cart">
@@ -115,7 +145,7 @@
                       <div class="comment-user-info">
                           <h2 class="comment-user-name">Gias Hossen  <span>4 months ago</span></h2>
                           <h3 class="comment-user-skill">UI Designer</h3>
-                          <p class="comment-value">This blog is really insightful! I never thought about the topic from this prespective. Thanks for sharing!</p>
+                          <p class="comment-value">This blog post is a gem! It provided a fresh viewpoint that I hadn't thought of. Much appreciated!</p>
                       </div>
                   </div>
                   <div data-aos="fade-up" class="comment-user-cart">
@@ -123,7 +153,7 @@
                       <div class="comment-user-info">
                           <h2 class="comment-user-name">Abdur Rahman  <span>2 days ago</span></h2>
                           <h3 class="comment-user-skill">Data Scientist</h3>
-                          <p class="comment-value">This blog is really insightful! I never thought about the topic from this prespective. Thanks for sharing!</p>
+                          <p class="comment-value">Thanks for sharing this blog! It gave me a completely new angle on the subject that I found very insightful.</p>
                       </div>
                   </div>
                   <div data-aos="fade-up" class="comment-user-cart">
@@ -131,7 +161,7 @@
                       <div class="comment-user-info">
                           <h2 class="comment-user-name">Munshi Amir Mahmud ToFa <span>2 years ago</span></h2>
                           <h3 class="comment-user-skill">Network Engineer</h3>
-                          <p class="comment-value">This blog is really insightful! I never thought about the topic from this prespective. Thanks for sharing!</p>
+                          <p class="comment-value">Reading this blog was a revelation! I love how it presents the topic from such an original perspective. Thanks for sharing!</p>
                       </div>
                   </div>
               </div>
@@ -311,79 +341,81 @@
      </main>
 
      <footer data-aos="fade-up" class="footer" id="footer">
-       <section class="footer-sec">
-            <div class="footer-left">
-              <a class="footer-logo" href="index.html">
-                <img src="assets/logo-01.png" alt="">
-              </a>
-              <p class="footer-left-p contact-p">
-                My mission is to simplify complex user experiences with ethical design, fostering meaningful connections for billions, while offering top-tier services in full stack development, app development, responsive design, and more.
-              </p>
-              <ul class="contact-ul">
-                <li>
-                  <i class="fa-thin fa-location-dot"></i>
-                 <a target="_blank" href="https://maps.app.goo.gl/uyPo15RKvJLjghpx5"> Sujanagar, Pabna, Bangladesh</a>
-                </li>
-                <li>
-                  <i class="fa-thin fa-envelope"></i>
-                  <a href="#contact">mdimranparves35@gmail.com</a>
-                </li>
-                <li>
-                  <i class="fa-thin fa-phone"></i>
-                  <a href="#contact">01301460344</a>
-                </li>
-              </ul>
+
+
+      <section class="footer-sec">
+          <div class="footer-left">
+            <a class="footer-logo" href="index.html">
+              <img src="assets/logo-01.png" alt="">
+            </a>
+            <p class="footer-left-p contact-p">
+              My mission is to simplify complex user experiences with ethical design, fostering meaningful connections for billions, while offering top-tier services in full stack development, app development, responsive design, and more.
+            </p>
+            <ul class="contact-ul mobile-contact-ul">
+              <li>
+                <i class="fa-thin fa-location-dot"></i>
+               <a target="_blank" href="https://maps.app.goo.gl/uyPo15RKvJLjghpx5"> Sujanagar, Pabna, Bangladesh</a>
+              </li>
+              <li>
+                <i class="fa-thin fa-envelope"></i>
+                <a href="#contact">mdimranparves35@gmail.com</a>
+              </li>
+              <li>
+                <i class="fa-thin fa-phone"></i>
+                <a href="#contact">01301460344</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-middle">
+              <h2 class="footer-nav-title">Navigation</h2>
+               <div class="footer-nav-ul-con">
+                <ul class="foot-nav-left">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="aboutme.html">About Me</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="projects.html">Projects</a></li>
+                  <li><a href="pricing.html">Pricing</a></li>
+                </ul>
+                <ul class="foot-nav-left">
+                  <li><a href="blog.html">Blogs</a></li>
+                  <li><a href="testimonials.html">Testimonials</a></li>
+                  <li><a href="skills.html">Skills</a></li>
+                  <li><a href="aboutme.html">Experiences</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+               </div>
+          </div>
+          <div class="footer-right">
+               <h1 class="footer-right-title">
+                Get the latest information
+               </h1>
+               <form action="">
+                  <div class="foot-email-box">
+                    <input id="foot-email" type="email" required placeholder="Email Address">
+                    <a class="foot-send" href="#"><i class="fa-solid fa-paper-plane-top"></i></a>
+                  </div>
+               </form>
+               <ul class="foot-right-ul">
+                <li><a class="footer-social-icon" href="https://www.facebook.com/mdimran.parves.9" target="_blank"><i class="fa-brands fa-facebook-f footer-social-icon-main"></i></a></li>
+
+                <li><a class="footer-social-icon" href="https://www.youtube.com/@itz_riam" target="_blank"><i class="fa-brands fa-youtube footer-social-icon-main"></i></a></li>
+
+                <li><a class="footer-social-icon" href="https://wa.me/+8801301460344" target="_blank"><i class="fa-brands fa-whatsapp footer-social-icon-main"></i></a></li>
+
+                <li><a class="footer-social-icon" href="https://www.instagram.com/mimranparves/" target="_blank"><i class="fa-brands fa-instagram footer-social-icon-main"></i></a></li>
+
+                <li><a class="footer-social-icon" href="https://x.com/Mohamma85577121" target="_blank"><i class="fa-brands fa-x-twitter footer-social-icon-main"></i></a></li>
+               </ul>
+          </div>
+      </section>
+       <section class="footer-last-texts">
+            <div class="hgigi">
+              <h2>2024 Mohammad Imran. All Rights Reserved.</h2>
+              <h2>User Terms & Conditions | Privacy Policy</h2>
             </div>
-            <div class="footer-middle">
-                <h2 class="footer-nav-title">Navigation</h2>
-                 <div class="footer-nav-ul-con">
-                  <ul class="foot-nav-left">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="aboutme.html">About Me</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="pricing.html">Pricing</a></li>
-                  </ul>
-                  <ul class="foot-nav-left">
-                    <li><a href="blog.html">Blogs</a></li>
-                    <li><a href="testimonials.html">Testimonials</a></li>
-                    <li><a href="skills.html">Skills</a></li>
-                    <li><a href="aboutme.html">Experiences</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                  </ul>
-                 </div>
-            </div>
-            <div class="footer-right">
-                 <h1 class="footer-right-title">
-                  Get the latest information
-                 </h1>
-                 <form action="">
-                    <div class="foot-email-box">
-                      <input id="foot-email" type="email" required placeholder="Email Address">
-                      <a class="foot-send" href="#"><i class="fa-solid fa-paper-plane-top"></i></a>
-                    </div>
-                 </form>
-                 <ul class="foot-right-ul">
-                  <li><a class="footer-social-icon" href="https://www.facebook.com/mdimran.parves.9" target="_blank"><i class="fa-brands fa-facebook-f footer-social-icon-main"></i></a></li>
+       </section>
 
-                  <li><a class="footer-social-icon" href="https://www.youtube.com/@itz_riam" target="_blank"><i class="fa-brands fa-youtube footer-social-icon-main"></i></a></li>
-
-                  <li><a class="footer-social-icon" href="https://wa.me/+8801301460344" target="_blank"><i class="fa-brands fa-whatsapp footer-social-icon-main"></i></a></li>
-
-                  <li><a class="footer-social-icon" href="https://www.instagram.com/mimranparves/" target="_blank"><i class="fa-brands fa-instagram footer-social-icon-main"></i></a></li>
-
-                  <li><a class="footer-social-icon" href="https://x.com/Mohamma85577121" target="_blank"><i class="fa-brands fa-x-twitter footer-social-icon-main"></i></a></li>
-                 </ul>
-            </div>
-        </section>
-         <section class="footer-last-texts">
-              <div class="hgigi">
-                <h2>2024 Mohammad Imran. All Rights Reserved.</h2>
-                <h2>User Terms & Conditions | Privacy Policy</h2>
-              </div>
-         </section>
-
-    </footer>
+  </footer>
     <a href="#header" class="upper-arrow" title="Home"><i class="fa-solid fa-jet-fighter-up"></i></a>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
