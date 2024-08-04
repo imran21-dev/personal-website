@@ -751,11 +751,16 @@
     height: 380%;
     position: absolute;
     top: 50%;
-    z-index: 0;
+    z-index: 999;
     background-color: #9914c141;
     border-radius: 50%;
     filter: blur(200px);
     margin: 0 auto;
+}
+.skill-container, .mobile-skills-section, .mobile-career-goal,
+.mobile-testi-section{
+    z-index: 1000;
+    position: relative;
 }
 .Professional-In h1 {
     font-size: 20px;
