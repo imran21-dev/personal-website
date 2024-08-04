@@ -17,6 +17,7 @@
 .testimonials{
     position: relative;
     z-index: 999;
+    margin-top: -50px;
 }
 
 .testi-left {
@@ -60,8 +61,10 @@
     width: 100%;
     margin-top: -15px;
     position: relative;
-    background-image: url(assets/bg-header-01.png), linear-gradient(to bottom, #0000001d, #0000008e, #0c0c0d);
-    background-size: cover;
+    background-image: url(assets/bg-header-01.png), linear-gradient(to bottom, #0000001d, #000000a1, #0c0c0d);
+    background-size: 250%;
+    background-position-y: 60%;
+    background-position-x: 100%;
     background-repeat: no-repeat;
     z-index: 999;
     background-blend-mode: overlay;
@@ -120,6 +123,7 @@
         align-items: center;
         gap: 30px;
         padding: 20px 0%;
+        margin-top: 0px;
         
         
     }
@@ -133,6 +137,8 @@
     position: relative;
     background-image: url(assets/bg-header-01.png), linear-gradient(to bottom, #0000001d, #0000008e, #0c0c0d);
     background-size: 200%;
+    background-position-x: 60%;
+    background-position-y: 0px;
     background-repeat: no-repeat;
     z-index: 999;
     background-blend-mode: overlay;
