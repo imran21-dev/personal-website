@@ -31,7 +31,7 @@
 }
 .skill-cart{
      width: 30%;
-     background: linear-gradient(to right bottom, var(--primary-color), var(--primary-color2));
+     background: linear-gradient(to right bottom, var(--font-color), var(--primary-color2));
 
      display: flex;
      flex-direction: column;
@@ -48,6 +48,9 @@
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;
+    backdrop-filter: blur(250px);
+    border-top-left-radius: 100px;
+    
     
     
 }

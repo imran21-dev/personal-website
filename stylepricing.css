@@ -1077,7 +1077,9 @@
  .projects-contact-container{
     margin-bottom: -20px;
  }
-
+ .projects-contact-container {
+    padding: 0px 0%;
+}
  
    
 }
