@@ -137,7 +137,7 @@
         width: 100%;
         margin-top: 0px;
         position: relative;
-        background-image: url(assets/bg-header-01.png), linear-gradient(to bottom, #00000057, #00000060, #0c0c0d);
+        background-image: url(assets/bg-header.png), linear-gradient(to bottom, #00000057, #00000060, #0c0c0d);
         background-size: 200%;
         background-position-x: 60%;
         background-position-y: 0px;

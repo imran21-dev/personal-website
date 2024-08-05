@@ -233,7 +233,11 @@
         z-index: 1000;
     }
 
-
+    .map-con {
+        border-radius: 15px;
+        height: 180px;
+        width: 100%;
+    }
 
 
 

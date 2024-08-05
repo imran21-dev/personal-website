@@ -305,14 +305,14 @@
     z-index: 999;
 }
 .header {
+    height: 300px;
     width: 100%;
-    
     margin-top: -15px;
     position: relative;
-    background-image: url(assets/bg-header-01.png), linear-gradient(to bottom, #00000057, #00000060, #0c0c0d);
+    background-image: url(assets/bg-header.png), linear-gradient(to bottom, #0000001d, #000000a1, #0c0c0d);
     background-size: 250%;
-    background-position-y: 55%;
-    background-position-x: 10%;
+    background-position-y: 60%;
+    background-position-x: 100%;
     background-repeat: no-repeat;
     z-index: 999;
     background-blend-mode: overlay;
@@ -334,7 +334,7 @@
         width: 100%;
         margin-top: 0px;
         position: relative;
-        background-image: url(assets/bg-header-01.png), linear-gradient(to bottom, #00000057, #00000060, #0c0c0d);
+        background-image: url(assets/bg-header.png), linear-gradient(to bottom, #00000057, #00000060, #0c0c0d);
         background-size: 200%;
         background-position-x: 60%;
         background-position-y: 0px;
