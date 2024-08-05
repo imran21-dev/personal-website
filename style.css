@@ -3295,10 +3295,35 @@ form {
 #Mobile-header-title{
     margin-top: -6px;
 }
+.index-project-container .project-cart{
+          width: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 0 5%;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #343434ba;
+    
 
+}
+.services-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: scale(.4);
+    margin-top: -250px;
+    margin-bottom: -250px;
 
-
-
+}
+.blog {
+    display: flex;
+    margin-top: -20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 0%;
+}
 
 
 

@@ -548,11 +548,50 @@
 .gloww{
     top: 0%;
 }
-
-
-
-
-
+.okam{
+  
+    padding: 0;
+    width: 100%;
+}
+.blog-containerss {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    column-gap: 0px;
+    row-gap: 0px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    order: 1;
+    padding: 0 0;
+}
+.blog-cart{
+    width: calc(100% + 35px);
+}
+.details-btn-con {
+    margin-bottom: 10px;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0px;
+    margin-top: 20px;
+}
+.blog-shocase {
+    width: 100%;
+}
+.blog-cart::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 20px;
+    padding: 1px;
+    z-index: 2;
+    background: linear-gradient(4deg, var(--primary-color2), var(--primary-color));
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
 
 
 

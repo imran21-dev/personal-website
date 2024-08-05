@@ -359,8 +359,24 @@
     color: var(--font-color2);
     margin-top: 0px;
 }
-
-
+.services-cart {
+    padding: 0%;
+    display: grid;
+    row-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.specialized {
+    padding: 0px 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    z-index: 999;
+}
 
 
 
