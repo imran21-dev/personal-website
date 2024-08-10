@@ -132,6 +132,9 @@
     font-weight: 500;
   
 }
+.project-cart-img{
+    background-position: center;
+ }
 @media screen and (max-width: 576px) {
     .header {
         width: 100%;

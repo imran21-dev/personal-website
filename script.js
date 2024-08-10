@@ -103,7 +103,7 @@ function checkAll() {
         const PopLeftBtn = PopButton.children[0]
         const CurrentBtn = document.getElementById("CurrentBtn")
         const CurrentBtnValue = CurrentBtn.innerText
-
+       
 
 
         const style = window.getComputedStyle(PopCart)    
@@ -115,8 +115,10 @@ function checkAll() {
               Popuser.innerHTML = CurrentUserValue
               PopTitleHead.innerText = Titletext
               PopLeftBtn.innerText = CurrentBtnValue
-  
-             
+              PopLeftBtn.href = CurrentBtn.href
+
+
+
 
 }
 
@@ -153,6 +155,7 @@ function checkAll2() {
               Popuser.innerHTML = CurrentUserValue
               PopTitleHead.innerText = Titletext
               PopLeftBtn.innerText = CurrentBtnValue
+              PopLeftBtn.href = CurrentBtn.href
   
              
 
@@ -191,6 +194,8 @@ function checkAll3() {
               Popuser.innerHTML = CurrentUserValue
               PopTitleHead.innerText = Titletext
               PopLeftBtn.innerText = CurrentBtnValue
+              PopLeftBtn.href = CurrentBtn.href
+
   
              
 
@@ -228,6 +233,8 @@ function checkAll4() {
               Popuser.innerHTML = CurrentUserValue
               PopTitleHead.innerText = Titletext
               PopLeftBtn.innerText = CurrentBtnValue
+              PopLeftBtn.href = CurrentBtn.href
+
   
              
 
@@ -266,6 +273,8 @@ function checkAll5() {
               Popuser.innerHTML = CurrentUserValue
               PopTitleHead.innerText = Titletext
               PopLeftBtn.innerText = CurrentBtnValue
+              PopLeftBtn.href = CurrentBtn.href
+
   
              
 
@@ -303,6 +312,8 @@ function checkAll6() {
               Popuser.innerHTML = CurrentUserValue
               PopTitleHead.innerText = Titletext
               PopLeftBtn.innerText = CurrentBtnValue
+              PopLeftBtn.href = CurrentBtn.href
+
   
              
 
@@ -340,6 +351,8 @@ function checkAll7() {
               Popuser.innerHTML = CurrentUserValue
               PopTitleHead.innerText = Titletext
               PopLeftBtn.innerText = CurrentBtnValue
+              PopLeftBtn.href = CurrentBtn.href
+
   
              
 
@@ -377,6 +390,8 @@ function checkAll8() {
               Popuser.innerHTML = CurrentUserValue
               PopTitleHead.innerText = Titletext
               PopLeftBtn.innerText = CurrentBtnValue
+              PopLeftBtn.href = CurrentBtn.href
+
   
              
 
@@ -414,6 +429,8 @@ function checkAll9() {
               Popuser.innerHTML = CurrentUserValue
               PopTitleHead.innerText = Titletext
               PopLeftBtn.innerText = CurrentBtnValue
+              PopLeftBtn.href = CurrentBtn.href
+
   
              
 

@@ -13,6 +13,7 @@
     --font-color5: #ded0eb89;
 
     --primary-font: Sora;
+   
 
 }
 .video1{
@@ -2301,6 +2302,9 @@ box-shadow: 0 8px 32px 0 rgba(73, 10, 128, 0.37);
 }
 .mobile-nav-name{
     display: none;
+}
+.project-cart-img{
+   background-position: center;
 }
 
 /* Mobile-Devices */
